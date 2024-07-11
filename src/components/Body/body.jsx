@@ -10,8 +10,7 @@ const Body = () => {
     return (
         <>
         <div className="container">
-        <img src={logi} alt="" className="image" />
-        <h1 className="text">Igniting the innovation within Upcoming Trendsetter</h1>
+        <h1 className="text">Igniting the innovation <span class="break"></span> within Upcoming Trendsetter</h1>
         <button className="btn">
             Let's Start
         </button>
