@@ -32,6 +32,7 @@ const NavBar = () => {
     </div>
     </>
     return (
+        <div className=" h-lvh w-full bg-black">
         <nav>
             <div className="h-10vh flex justify-between z-50 text-white lg:py-1 px-20 py-1 border-b border-slate-800 fixed top-0 left-0 w-screen transparent backdrop-blur-[1px] md:gap-0 gap-8 bg-slate-800 ">
                 <div className="flex items-center flex-1">
@@ -70,6 +71,7 @@ const NavBar = () => {
                 </button>
             </div>
         </nav>
+        </div>
     )
 }
 
