@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.image{
+    height: 45rem;
+    width:100%;
+    object-fit: cover;
+    
+
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    /* header */
+
+position: absolute;
+width: 1280px;
+height: 720px;
+left: 0px;
+top: 9px;
+
+
+}
+
+.text{
+    line-height: 1.2;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    color: #ffffff
+}
+
+.btn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #ffffff;
+    border: solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.11);
+    
+}
+
+.temp{
+  /* about us card */
+
+position: absolute;
+width: 933px;
+height: 300px;
+left: 174px;
+top: 645px;
+
+
+}
