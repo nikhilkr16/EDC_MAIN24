@@ -47,7 +47,7 @@ const NavBar = () => {
                         <Link spy={true} smooth={true} to = "Home">
                         <li className="hover:text-fuchsia-600 transition cursor-pointer">Home</li>
                         </Link>
-                        <Link spy={true} smooth={true} to = "Events">
+                        <Link spy={true} smooth={true} to = "\src\components\Events_Page\Banner.jsx">
                         <li className="hover:text-fuchsia-600 transition cursor-pointer">Events</li>
                         </Link>
                         <Link spy={true} smooth={true} to = "Speakers">
