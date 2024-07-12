@@ -1,10 +1,8 @@
 import React from "react";
 import './footer.css';
-import Facebook from "../../assets/Facebook.png";
-import Instagram from "../../assets/Instagram.png";
-import LinkedIn from "../../assets/LinkedIn.png";
 import edclogo from "../../assets/edclogo.png";
 
+import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Footer=()=>{
     return (
@@ -20,9 +18,9 @@ const Footer=()=>{
                         <div className="para">
                         <p>We strive to be at the forefront of technological advancements and industry best practices, consistently exceeding the expectations of our clients.</p>
                         <div className="socialmedia">
-                            <p><img src={Facebook} alt="" /></p>
-                            <p><img src={Instagram} alt="" /></p>
-                            <p><img src={LinkedIn} alt="" /></p>
+                           <p><FaFacebook className="facebookIcon" /></p>
+                            <p><FaInstagram className="instagramIcon" ></FaInstagram></p>
+                            <p><FaLinkedinIn className="linkedinIcon"></FaLinkedinIn></p>
                         </div>
                         </div>
                     </div>

@@ -54,6 +54,11 @@ a{
     width: 80%;
 }
 
+.facebookIcon, .instagramIcon, .linkedinIcon {
+    font-size: 30px;
+    margin-right: 10px; 
+}
+
 .sb__footer-links_div h3{
     font-size: 17px;
     line-height: 17px;
