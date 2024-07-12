@@ -7,22 +7,25 @@
 
 }
 
-.container{
-    background-image: url("../../assets/edcHome.jpg");
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.986), rgba(255, 235, 56, 0.121)), 
+                url("../../assets/edcHome.jpg") no-repeat center center; 
+    background-size: contain;
     text-align: center;
-    width: 100%;
-    height: 70%;
+     /* Full viewport width */
+    height: 100vh; /* Use vh for viewport height */
     overflow: hidden;
-    /* header */
-
-position: absolute;
-width: 1280px;
-height: 720px;
-left: 0px;
-top: 9px;
-
-
+    position: absolute;
+    top: 9px;
+    left: 0;
+    z-index: 0;
 }
+
+/* header */
+
+
+
+
 
 .text{
     line-height: 1.2;
@@ -61,11 +64,19 @@ top: 9px;
 .temp{
   /* about us card */
 
-position: absolute;
-width: 933px;
-height: 300px;
-left: 174px;
-top: 645px;
+/* Vector */
 
+position: absolute;
+width: 725.03px;
+height: 792.21px;
+transform: scale(0.75);
+transform-origin: left;
+background: url("../../assets/Vector.svg");
+transform: rotate(90+77.42deg);
+position: absolute;
+left: 0;
+top: 50rem;
+background-repeat: no-repeat;
+opacity: 0.75;
 
 }
