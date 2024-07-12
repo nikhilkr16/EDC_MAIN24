@@ -4,7 +4,7 @@ import Eventcard from "./Eventcard";
 function Eventsection() {
     return(
         <div className="m-20 border-y-4 p-12">
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-start items-center">
                 <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
                 <h1 className="text-[25px] ml-[-25px] font-bold">Events</h1>
             </div>
