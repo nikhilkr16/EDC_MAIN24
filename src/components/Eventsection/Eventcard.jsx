@@ -3,12 +3,13 @@ import { SlCalender } from "react-icons/sl";
 import { FaRegClock } from "react-icons/fa";
 import { ImTarget } from "react-icons/im";
 import { BsCalendar } from "react-icons/bs";
+import img from '../Eventsection/eventsicon.png'
 
 function Eventcard() {
     return(
             <div className="flex flex-col justify-center items-center text-center p-8 rounded-2xl ">
                 <div>
-                    <img src="\src\components\Eventsection\eventsicon.png" alt="" srcset="" className="rounded-full" />
+                    <img src={img} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold text-[20px]">Event</h1>
                 </div>
             <div className="flex flex-col justify-start items-start text-start mt-4">
