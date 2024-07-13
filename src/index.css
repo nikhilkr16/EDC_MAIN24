@@ -9,16 +9,29 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
   
-    .animate-scroll {
-      animation: scroll 20s linear infinite;
+    .animate-scroll1 {
+      animation: scroll1 10s linear infinite;
+    }
+    .animate-scroll2 {
+      animation: scroll2 10s linear infinite;
     }
   
-    @keyframes scroll {
+    @keyframes scroll1 {
       0% {
         transform: translateX(-100%);
       }
       100% {
-        transform: translateX(100%);
+        transform: translateX(0%);
       }
     }
+
+    @keyframes scroll2 {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
   }
