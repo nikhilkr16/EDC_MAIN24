@@ -29,32 +29,27 @@ const Body = () => {
             <div className="mt-12">
                 <h1 className="text-[35px] font-bold">Some Past Speakers</h1>
             </div>
-            <div className="flex justify-center items-center mt-12"> {/* Adjust the margin as needed */}
+            <div className="flex justify-center items-center mt-12">
       <div className="glass-morphic p-6 rounded-lg w-full max-w-6xl">
-        <div className="relative overflow-hidden h-[400px]">
+        <div className="relative overflow-hidden h-[400px] sm:h-auto">
           <div className="scrolling-cards flex space-x-6 animate-scroll">
-            <div className="card w-[300px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
+            <div className="card w-full sm:w-[300px] h-auto sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
               <h3 className="text-xl font-semibold mb-2">Card 1</h3>
               <p>Some content for card 1.</p>
             </div>
-            <div className="card w-[300px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
-              <h3 className="text-xl font-semibold mb-2">Card 2</h3>
+            <div className="card w-full sm:w-[300px] h-auto sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">              <h3 className="text-xl font-semibold mb-2">Card 2</h3>
               <p>Some content for card 2.</p>
             </div>
-            <div className="card w-[300px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
-              <h3 className="text-xl font-semibold mb-2">Card 3</h3>
+            <div className="card w-full sm:w-[300px] h-auto sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">              <h3 className="text-xl font-semibold mb-2">Card 3</h3>
               <p>Some content for card 3.</p>
             </div>
-            <div className="card w-[300px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
-              <h3 className="text-xl font-semibold mb-2">Card 4</h3>
+            <div className="card w-full sm:w-[300px] h-auto sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">              <h3 className="text-xl font-semibold mb-2">Card 4</h3>
               <p>Some content for card 4.</p>
             </div>
-            <div className="card w-[300px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
-              <h3 className="text-xl font-semibold mb-2">Card 5</h3>
+            <div className="card w-full sm:w-[300px] h-auto sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">              <h3 className="text-xl font-semibold mb-2">Card 5</h3>
               <p>Some content for card 5.</p>
             </div>
-            <div className="card w-[300px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
-              <h3 className="text-xl font-semibold mb-2">Card 6</h3>
+            <div className="card w-full sm:w-[300px] h-auto sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">              <h3 className="text-xl font-semibold mb-2">Card 6</h3>
               <p>Some content for card 6.</p>
             </div>
           </div>
