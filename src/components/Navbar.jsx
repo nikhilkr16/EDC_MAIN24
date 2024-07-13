@@ -48,9 +48,25 @@ const NavBar = () => {
             </ul>
         </div>
     );
+    const navbarStyles = `
+    .nav-btn {
+        display: none;
+    }
 
+    .icon {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    @media (max-width: 768px) {
+        .nav-btn {
+            display: block;
+        }
+    }
+`;
     return (
         <div className="h-lvh w-full">
+            <style>{navbarStyles}</style>
             <nav className="m-0 p-0">
                 <div className={`h-10vh flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-[#111111]' : 'bg-black'}`}>
                     <div className="flex items-center flex-1">
@@ -84,8 +100,8 @@ const NavBar = () => {
                         {click && content}
                     </div>
 
-                    <button className="block lg:hidden transition" onClick={handleClick}>
-                        {click ? <FaTimes className="h-8 w-8" /> : <IoMenu className="h-10 w-10" />}
+                    <button className="nav-btn" onClick={handleClick}>
+                        {click ? <FaTimes className="icon" /> : <IoMenu className="icon" />}
                     </button>
                 </div>
             </nav>
