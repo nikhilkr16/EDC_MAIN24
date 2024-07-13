@@ -33,7 +33,7 @@ const Body = () => {
       <div className="glass-morphic p-6 rounded-lg w-full max-w-6xl">
         <div className="relative overflow-hidden h-[400px]">
           <div className="scrolling-cards flex space-x-6 animate-scroll">
-            <div className="card w-[275px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
+            <div className="card w-[300px] h-[275px] p-4 bg-white bg-opacity-50 rounded-lg shadow-lg flex flex-col justify-end">
               <h3 className="text-xl font-semibold mb-2">Card 1</h3>
               <p>Some content for card 1.</p>
             </div>
