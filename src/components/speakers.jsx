@@ -3,7 +3,9 @@ import React from "react";
 function Speakers() {
     return(
         <>
-        <div className="m-20 border-y-0 p-12">
+        <div className="flex flex-wrap justify-center items-center mb-16">
+          <div className="glass-morphic pb-6 rounded-lg w-full max-w-7xl mt-6">
+          <div className="m-0 border-y-0 p-12">
         <div className="flex flex-row justify-start items-center">
           <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
           <h1 className="text-[25px] ml-[-25px] font-bold">Speakers</h1>
@@ -12,8 +14,6 @@ function Speakers() {
           <h1 className="text-[35px] font-bold">Some Past Speakers</h1>
         </div>
       </div>
-        <div className="flex flex-wrap justify-center items-center mb-16">
-          <div className="glass-morphic p-6 rounded-lg w-full max-w-6xl mt-6">
             <div className="flex relative overflow-hidden min-h-[400px] sm:h-auto">
               <div className="scrolling-cards flex space-x-6 animate-scroll1 mr-6">
                 <div className="card w-full sm:w-[300px] h-auto sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
