@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const Footer=()=>{
     return (
         <div className="footer">
-            <div className="sb__footer section__padding">
+            <div className="sb__footer section__padding flex flex-col justify-center items-center">
                 <div className="sb__footer-links">
                 <div className="sb__footer-links_edc">
                         <div className="sb__footer-links_edc_upper">
@@ -66,15 +66,14 @@ const Footer=()=>{
                            <p>Terms & Conditions</p>
                         </a>
                     </div>
-
-                       <div className="sb__footer-below">
+                </div>
+                <div className="sb__footer-below">
                        <div className="sb__footer-copyright">
                          <p>
                             Copyright @{new Date().getFullYear()} EDC, BIT Mesra. All rights reserved.
                         </p>
                        </div>
                        </div>
-                </div>
             </div>
         </div>
     )
