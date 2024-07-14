@@ -10,7 +10,6 @@ function App() {
   return(
     <div>
       <NavBar/>
-      <About_us/>
       <Body />
       <Eventsection/>
       <Speakers />

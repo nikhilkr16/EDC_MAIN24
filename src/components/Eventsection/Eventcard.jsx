@@ -7,7 +7,7 @@ import img from '../Eventsection/eventsicon.png'
 
 function Eventcard() {
     return(
-            <div className="flex flex-col justify-center items-center text-center p-8 rounded-2xl ">
+            <div className="flex flex-col justify-center items-center text-center lg:p-8 rounded-2xl ">
                 <div>
                     <img src={img} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold text-[20px]">Event</h1>
