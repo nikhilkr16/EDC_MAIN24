@@ -8,15 +8,16 @@
 }
 
 .container {
-    background: linear-gradient(rgba(0, 0, 0, 0.986), rgba(255, 235, 56, 0.121)), 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                 url("../../assets/edcHome.jpg") no-repeat center center; 
     background-size: contain;
     text-align: center;
      /* Full viewport width */
-    height: 100vh; /* Use vh for viewport height */
+    height: 85vh; /* Use vh for viewport height */
+    width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 9px;
+    top: 0;
     left: 0;
     z-index: 0;
 }
