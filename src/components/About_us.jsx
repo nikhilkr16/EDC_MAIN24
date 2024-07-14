@@ -5,7 +5,7 @@ import { AiFillLike } from "react-icons/ai";
 
 function About_us() {
   return (
-    <div className='min-h-64 w-full shadow-black shadow-inner bg-slate-700 '>
+    <div className='min-h-64 w-full bg-transparent '>
     <div className=' min-h-52 w-2/3 bg-white absolute bottom- -m-20 left-60 p-7 rounded-xl flex z-10'>
         <div  className='w-2/3 pr-14' >
              <h3  className=' text-base font-bold mb-2 '><span className='bg-yellow-200 p-1'>Ab</span>out Us</h3>
