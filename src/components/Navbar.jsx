@@ -65,7 +65,7 @@ const NavBar = () => {
     }
 `;
     return (
-        <div className="h-lvh w-full">
+        <div className="h-lvh w-screen">
             <style>{navbarStyles}</style>
             <nav className="m-0 p-0">
                 <div className={`h-10vh flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-[#111111]' : 'bg-black'}`}>
