@@ -14,7 +14,7 @@
     text-align: center;
      /* Full viewport width */
     height: 85vh; /* Use vh for viewport height */
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -68,7 +68,7 @@
 /* Vector */
 
 position: absolute;
-width: 725.03px;
+width: 100vw;
 height: 792.21px;
 transform: scale(0.75);
 transform-origin: left;
