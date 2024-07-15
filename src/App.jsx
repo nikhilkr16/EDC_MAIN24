@@ -7,6 +7,7 @@ import Eventsection from "./components/Eventsection/Eventssection.jsx"
 import Speakers from "./components/speakers.jsx"
 import Sponser from "./components/Sponser/Sponser.jsx"
 import Hero from "./components/Hero/Hero.jsx"
+import Wave from "./components/wave/wave.jsx"
 
 function App() {
   return(
@@ -18,6 +19,7 @@ function App() {
       <Eventsection/>
       <Speakers />
       <Sponser></Sponser>
+      <Wave />
       <Footer />
     </div>
   )
