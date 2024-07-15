@@ -59,31 +59,6 @@
     }
      
   
-    .animate-scroll1 {
-      animation: scroll1 10s linear infinite;
-    }
-    .animate-scroll2 {
-      animation: scroll2 10s linear infinite;
-    }
-  
-    @keyframes scroll1 {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0%);
-      }
-    }
-
-    @keyframes scroll2 {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0%);
-      }
-    }
-
   }
 
 body{
