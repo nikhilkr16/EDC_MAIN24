@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-.image{
+/* .image{
     height: 45rem;
     width:100%;
     object-fit: cover;
     
 
-}
+} */
+ /* .background{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    background-image: url("../../assets/edcHome.jpg"); 
+
+ } */
 
 .container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url("../../assets/edcHome.jpg") no-repeat center center; 
-    background-size: contain;
+    url("../../assets/edcHome.jpg");
+              
+    background-size: cover;
     text-align: center;
      /* Full viewport width */
-    height: 85vh; /* Use vh for viewport height */
-    width: 100vw;
-    overflow: hidden;
+    height: 100vh; /* Use vh for viewport height
+    width: 100%;
+     
+    /* overflow: hidden; */
     position: absolute;
     top: 0;
     left: 0;
@@ -80,5 +89,6 @@ top: 50rem;
 background-repeat: no-repeat;
 opacity: 0.75;
 z-index: -9;
+
 
 }
