@@ -1,0 +1,36 @@
+.animate-scroll1 {
+      animation: 15s scroll1 linear infinite;
+    }
+    .animate-scroll2 {
+      animation: 15s scroll2 linear infinite;
+    }
+  
+    @keyframes scroll1 {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+    @keyframes scroll2 {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+    @keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.animate-infinte-slide {
+    animation: 11s slide infinite linear;
+}

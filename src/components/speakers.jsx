@@ -1,4 +1,5 @@
 import React from "react";
+import "./speakercards.css";
 
 function Speakers() {
     return(
