@@ -1,7 +1,7 @@
 import React from "react"
-import NavBar from "./components/Navbar"
+import NavBar from "./components/Navbar.jsx"
 import About_us from "./components/About_us.jsx"
-import Body from "./components/Body/Body.jsx";
+import Body from "./components/Body/body.jsx"
 import Footer from "./components/footer/Footer.jsx"
 import Eventsection from "./components/Eventsection/Eventssection.jsx"
 import Speakers from "./components/speakers.jsx"
@@ -14,11 +14,11 @@ function App() {
     <div>
       
       <Body/>
-    <About_us></About_us>
-      <Hero></Hero>
-      {/* <Eventsection/> */}
+      <About_us/>
+      <Hero/>
+      <Eventsection/>
       <Speakers />
-      <Sponser></Sponser>
+      <Sponser/>
       <Wave />
       <Footer />
     </div>
