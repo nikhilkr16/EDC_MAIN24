@@ -15,8 +15,8 @@ function Eventsection() {
                 <h1 className="text-[35px] font-bold">Our Flagship Events</h1>
             </div>
             <div className="flex flex-col justify-center items-center mt-16">
-                <div className="flex flex-row justify-center items-center mb-4">
-                <div className="flex flex-col justify-center items-center text-center lg:p-8 rounded-2xl ">
+                <div className="flex md:flex-row flex-col justify-center items-center mb-4">
+                <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                 <div>
                     <img src={img} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold md:text-[20px]">Event</h1>
@@ -39,7 +39,7 @@ function Eventsection() {
             <p>Event Description in 1-2 lines</p>
             </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center lg:p-8 rounded-2xl ">
+            <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                 <div>
                     <img src={img} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold md:text-[20px]">Event</h1>
@@ -62,7 +62,7 @@ function Eventsection() {
             <p>Event Description in 1-2 lines</p>
             </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center lg:p-8 rounded-2xl ">
+            <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                 <div>
                     <img src={img} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold md:text-[20px]">Event</h1>
