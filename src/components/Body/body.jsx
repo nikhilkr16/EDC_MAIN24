@@ -1,27 +1,21 @@
-import React from "react"
-import { useState } from "react"
-import { Link } from "react-scroll"
-import { FaTimes } from "react-icons/fa"
-import { IoMenu } from "react-icons/io5";
-import blobs from "../../assets/Vector.svg"
-
-import "./body.css"
-
-const Body = () => {
+import React from 'react'
+import "../Body/body.css";
+import NavBar from '../Navbar.jsx'
+import About_us from '../About_us.jsx';
+function Body() {
   return (
-    <>
-    
-      <div className="container">
-        <h1 className="text">Igniting the innovation <span class="break"></span> within Upcoming Trendsetter</h1>
-        <button className="btn">
-          Let's Start
-        </button>
+         <div className='b'>
+        <div className='b-body'>
+        <NavBar></NavBar>
+       <div className="heading">
+        <h1 className='h1'>Igniting the innovation within upcoming trendsetters.</h1>
+       </div>
+       <div className="btn">
+        <button className='button'>Let's Start </button>
+       </div>
+        </div>
+        </div>
+     )
+ }
 
-      </div>
-      
-      
-    </>
-  )
-}
-
-export default Body
+export default Body;
