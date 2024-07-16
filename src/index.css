@@ -14,54 +14,133 @@
       box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
     }
     .about_us1 {
-      @media only screen and (max-width: 350px) {
-
-        position: relative;
-        height: 100vh;
-        /* background-color: aqua; */
-       
+      @media only screen and (max-width: 550px) {
+        position:static;
+        height: 100%;
+       display: flex;
+       justify-content: center;
+       /* background-color: blueviolet; */
+       padding: 0px;
+       margin: 0px;
+      
       }
       
     }
-
+   
+    
     .about_us2 {
-      @media only screen and (max-width: 350px) {
+      @media only screen and (max-width: 550px) {
+        padding: 10px ;
         display: flex;
         flex-direction: column;
-        /* background-color: rebeccapurple; */
         width: 100%;
         height: auto;
         position: relative;
-  
+        /* background-color: blue; */
+       }
+    }
+    .hero-1 {
+      @media only screen and (max-width: 550px) {
+       height:100%;
+       position: relative;
+       width: 100%;
+       padding: 0px;
+      margin-top: 200px;
+      /* background-color: red; */
+       }
+    }
+    .hero-2 {
+      @media only screen and (max-width: 550px) {
+       height: auto;
+       width: 100%;
+       padding: 0px;
+       margin: 0px;
+       display: flex;
+       flex-direction: column;
+       /* background-color: blueviolet; */
       
-      }
-      .media1 {
-        @media only screen and (max-width: 350px) {
+       }
+    }
+    .hero-3 {
+      @media only screen and (max-width: 550px) {
+       display: flex;
+       padding: 20px;
+       margin: 0px;
+       gap: 30px;
+       /* background-color: blueviolet; */
+      
+       }
+    }
+    .hero-4 {
+      @media only screen and (max-width: 550px) {
+       display: flex;
+       flex-direction: column;
+       padding: 20px 50px;
+       margin: 50px 0px;
+       height: 100%;
+       width: 100%;
+       /* background-color: blueviolet; */
+       }
+    }
+    
+    .spon1 {
+      @media only screen and (max-width: 550px) {
+       padding: 0px;
+       margin: 0px;
+        /* background-color: blue; */
+        margin: 20px 20px;
+       }
+    }
+    .about_us3 {
+        @media only screen and (max-width: 550px) {
           width: 100%;
-          /* background-color: yellow; */
-           margin-bottom: 60px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          /* background-color: aqua; */
+          padding: 0px;
+           
         }
      }
-     .hero1 {
-      @media only screen and (max-width: 350px) {
-
-        position: relative;
-        width:auto;
-        background-color: aqua;
+     .about_us4 {
+      @media only screen and (max-width: 550px) {
+        margin-top: 40px;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        width: 100vh ;
-
-        padding: 0%;
-        margin: 0%;
+        
+        
       }
+     }
+
+     .content1 {
+      @media only screen and (max-width: 550px) {
+        width:100%;
+        font-size: 0.8em;
+        font-weight: 600;
+        margin: 0px 15px;
+      }
+   }
+
+   .content2 {
+      @media only screen and (max-width : 550px) {
+      font-size: 1.2em;
+    }
+   }
+
+  .h-1 {
+    @media only screen and (max-width : 550px) {
+      width: 100vh;
+      display: flex;
+      padding: 0px;
+      height: 100vh;
+      background-color: rgb(30, 30, 176);
       
     }
-     
-  
+  }
   }
 
 body{
   overflow-x: hidden;
-}
 }
