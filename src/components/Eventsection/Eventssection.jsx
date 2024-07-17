@@ -6,7 +6,7 @@ import img from '../Eventsection/eventsicon.png'
 
 function Eventsection() {
     return(
-        <div className="lg:m-20 p-4 lg:p-12 border-y-4">
+        <div className="lg:m-20 p-4 lg:p-12">
             <div className="flex flex-row justify-start items-center">
                 <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
                 <h1 className="text-[25px] ml-[-25px] font-bold">Events</h1>
