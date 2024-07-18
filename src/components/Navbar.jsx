@@ -28,7 +28,7 @@ const NavBar = () => {
     }, []);
 
     const content = (
-        <div className="lg:hidden block absolute top-16 left-0 right-0 bg-[#111111] transition">
+        <div className="lg:hidden block absolute top-16 left-0 right-0 bg-[#111111] transition-all duration-500 ease-in-out">
             <ul className="text-center text-xl py-10">
                 <Link spy={true} smooth={true} to="Home" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Home</li>
