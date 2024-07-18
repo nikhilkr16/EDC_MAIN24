@@ -73,7 +73,7 @@ function Speakers() {
               </div>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <button className="p-4 rounded-xl bg-[#FED853] font-bold">Know More</button>
+              <button className="p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]">Know More</button>
             </div>
           </div>
         </div>

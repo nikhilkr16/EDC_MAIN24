@@ -28,7 +28,7 @@ const NavBar = () => {
     }, []);
 
     const content = (
-        <div className="lg:hidden block absolute top-16 left-0 right-0 bg-[#111111] transition">
+        <div className="lg:hidden block absolute top-16 left-0 right-0 bg-[#111111] transition-all duration-500 ease-in-out">
             <ul className="text-center text-xl py-10">
                 <Link spy={true} smooth={true} to="Home" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Home</li>
@@ -68,7 +68,7 @@ const NavBar = () => {
         <div className="h-10vh w-screen">
             <style>{navbarStyles}</style>
             <nav className="m-0 p-0">
-                <div className={`h-10vh flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-black' : 'bg-transparent'}`} style={{ ...(scroll ? { backdropFilter: 'blur(10px)', backgroundColor: 'rgba(0, 0, 0, 0.4)' } : {}) }}>
+                <div className={`h-10vh flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-black' : 'bg-transparent'}`} style={{ ...(scroll ? { backdropFilter: 'blur(10px)', backgroundColor: 'rgba(0, 0, 0, 0.6)' } : {}) }}>
                     <div className="flex items-center flex-1">
                         <span className="lg:text-[18px] font-bold flex flex-row justify-center items-center">
                             <img src={logo} alt="" className="w-14 h-14" />
