@@ -8,15 +8,17 @@ import Speakers from "./components/speakers.jsx"
 import Sponser from "./components/Sponser/Sponser.jsx"
 import Hero from "./components/Hero/Hero.jsx"
 import Wave from "./components/wave/wave.jsx"
+import Slidermain from "./components/Slider/Slidermain.jsx"
 
 function App() {
   return(
     <div>
-      
+      <NavBar/>
       <Body/>
       <About_us/>
       <Hero/>
       <Eventsection/>
+      <Slidermain/>
       <Speakers />
       <Sponser/>
       <Wave />
