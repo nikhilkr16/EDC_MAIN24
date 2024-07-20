@@ -2,6 +2,8 @@ import React from 'react'
 import { FaGlobe } from "react-icons/fa";
 import { BsFileBarGraph } from "react-icons/bs";
 import { AiFillLike } from "react-icons/ai";
+import blob from "../assets/blobs.png"
+import blobR from "../assets/blobR.png"
 
 function About_us() {
   return (
@@ -32,6 +34,8 @@ function About_us() {
 </div>
         </div>
     </div>
+    <img src={blob} class="absolute w-64 -z-30 left-0 mt-[23rem]"/>
+    <img src={blobR} class="absolute w-64 -z-30 right-0 top-[50rem]"/>
     </div>
     </div>
   )
