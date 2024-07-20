@@ -6,12 +6,13 @@ import { GiFootprint } from "react-icons/gi";
 
 function Hero() {
   return (
+   <div className='w-screen p-4'>
     <div className='min-h-min w-full p-10 mt-40 hero-1'>
        <div className='flex shadow-slate-500 shadow-md h-auto glass-morphic-hero  w-full rounded-2xl about_us2'>
        <div className='w-3/5 p-10 hero-2'>
-       <div> <h3 className='text-xl font-semibold mb-4'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>ED</span>C BIT ,MESRA</h3>
+       <div className='p-1'> <h3 className='text-xl font-semibold mb-4'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>ED</span>C BIT ,MESRA</h3>
              <h2 className='text-2xl font-bold mb-4 '>Our Stats</h2>
-             <p className=' w-3/4 text-sm content1'>With a team of dedicated experts and professionals, we bring a wealth of experience and knowledge to every project. Our deep industry insights and hands-on experience enable us to tackle
+             <p className='text-start text-sm content1'>With a team of dedicated experts and professionals, we bring a wealth of experience and knowledge to every project. Our deep industry insights and hands-on experience enable us to tackle
                  even the most complex industrial challenges, providing you with tailored solutions that drive results.</p>
        </div>
        <div className=' w-full h-1/2 flex mt-2 flex-col gap-8'>
@@ -50,6 +51,7 @@ function Hero() {
 
         </div>
        </div>
+    </div>
     </div>
   )
 }
