@@ -5,13 +5,14 @@ import { AiFillLike } from "react-icons/ai";
 
 function About_us() {
   return (
+    <div className='w-screen p-4'>
     <div className='h-56 w-full bg-transparent  flex justify-center items-center absolute -bottom-36 about_us1'>
     <div className=' h-56 w-2/3 bg-white  p-7 rounded-xl flex about-morphic about_us2 '>
         <div  className='w-2/3 pr-14 about_us3'>
             <div> <h3  className=' text-base font-bold mb-2 '><span className='bg-yellow-200 p-1'>Ab</span>out Us</h3></div>
       <div><h3 className=' text-base font-bold  mb-1 mt-1'>What do we do ?</h3>
         </div>
-        <div> <p className=' text-xs mt-3 content1'>The Entrepreneurship Cell (E-Cell) at BIT MESRA is a student-driven initiative dedicated to promoting entrepreneurship among students. Through workshops, events,
+        <div className='p-1'> <p className=' text-xs mt-3 content1'>The Entrepreneurship Cell (E-Cell) at BIT MESRA is a student-driven initiative dedicated to promoting entrepreneurship among students. Through workshops, events,
              and mentorship programs, it cultivates a culture of innovation and supports budding entrepreneurs in turning their ideas into reality. </p>
              </div>
         </div>
@@ -30,6 +31,7 @@ function About_us() {
              The reliable industry takes many forms What do</h2>
 </div>
         </div>
+    </div>
     </div>
     </div>
   )
