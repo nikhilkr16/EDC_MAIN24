@@ -21,10 +21,10 @@ function App() {
       <Hero/>
       <Slidermain/>
       <Eventsection/>
-      <Testimonial/>
       <Speakers />
       <Sponser/>
       <Wave />
+      <Testimonial/>
       <Footer />
     </div>
   )
