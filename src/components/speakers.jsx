@@ -5,7 +5,7 @@ function Speakers() {
     return (
       <>
         <div className="flex flex-wrap justify-center items-center mb-16">
-          <div className="glass-morphic pb-6 rounded-lg w-full max-w-7xl mt-6">
+          <div className="glass-morphic pb-6 rounded-2xl w-full max-w-7xl mt-6 shadow-2xl">
             <div className="m-0 border-y-0 p-12">
               <div className="flex flex-row justify-start items-center">
                 <div className="h-[50px] w-[50px] bg-[#FED853]"></div>

@@ -8,7 +8,7 @@ function Hero() {
   return (
    <div className='w-screen p-4'>
     <div className='min-h-min w-full p-10 mt-40 hero-1'>
-       <div className='flex shadow-slate-500 shadow-md h-auto glass-morphic-hero  w-full rounded-2xl about_us2'>
+       <div className='flex shadow-2xl h-auto glass-morphic w-full rounded-2xl about_us2'>
        <div className='w-3/5 p-10 hero-2'>
        <div className='p-1'> <h3 className='text-xl font-semibold mb-4'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>ED</span>C BIT ,MESRA</h3>
              <h2 className='text-2xl font-bold mb-4 '>Our Stats</h2>
