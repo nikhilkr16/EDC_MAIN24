@@ -9,6 +9,8 @@ import Sponser from "./components/Sponser/Sponser.jsx"
 import Hero from "./components/Hero/Hero.jsx"
 import Wave from "./components/wave/wave.jsx"
 import Slidermain from "./components/Slider/Slidermain.jsx"
+import Testimonial from "./components/Testimonial/Testimonial.jsx"
+
 
 function App() {
   return(
@@ -17,8 +19,9 @@ function App() {
       <Body/>
       <About_us/>
       <Hero/>
-      <Eventsection/>
       <Slidermain/>
+      <Eventsection/>
+      <Testimonial/>
       <Speakers />
       <Sponser/>
       <Wave />
