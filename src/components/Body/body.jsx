@@ -8,7 +8,7 @@ function Body() {
         <div className='b-body'>
         <NavBar></NavBar>
        <div className="heading">
-        <h1 className='h1'>Igniting the innovation within upcoming trendsetters.</h1>
+        <h1 className='h1'> <h3><span>Igniting the innovation</span></h3> within upcoming<span>  trendsetters.</span></h1>
        </div>
        <div className="btn">
         <button className='button'>Let's Start </button>
