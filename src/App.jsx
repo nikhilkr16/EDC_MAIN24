@@ -10,12 +10,13 @@ import Hero from "./components/Hero/Hero.jsx"
 import Wave from "./components/wave/wave.jsx"
 import Slidermain from "./components/Slider/Slidermain.jsx"
 import Testimonial from "./components/Testimonial/Testimonial.jsx"
+import Speakers_sec from './Speakers_sec/Main.jsx';
 
 
 function App() {
   return(
     <div>
-      <NavBar/>
+      {/* <NavBar/>
       <Body/>
       <About_us/>
       <Hero/>
@@ -25,7 +26,8 @@ function App() {
       <Sponser/>
       <Wave />
       <Testimonial/>
-      <Footer />
+      <Footer /> */}
+      <Speakers_sec></Speakers_sec>
     </div>
   )
 }
