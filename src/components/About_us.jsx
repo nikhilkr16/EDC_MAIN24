@@ -34,7 +34,7 @@ function About_us() {
 </div>
         </div>
     </div>
-    <img src={blob} class="absolute w-64 -z-30 left-0 mt-[23rem]"/>
+    
     <img src={blobR} class="absolute w-64 -z-30 right-0 top-[50rem]"/>
     </div>
     </div>

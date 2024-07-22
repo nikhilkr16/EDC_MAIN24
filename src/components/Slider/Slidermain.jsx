@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "./Slider";
+import blob from "../../assets/blobs.png"
+import blobR from "../../assets/blobR.png"
 
 
 function Slidermain() {
@@ -16,6 +18,7 @@ function Slidermain() {
             <div className="flex justify-center items-center mt-16">
                     <Slider/> 
             </div>
+            
         </div>
     )
     
