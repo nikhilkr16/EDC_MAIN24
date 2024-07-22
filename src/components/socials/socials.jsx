@@ -1,10 +1,12 @@
 import React from "react";
 import { FaInstagram, FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
+import '../socials/socials.css'
 
 function Socials() {
     return (
         <>
-            <div className="bg-[url('./socials/socialsbg.jpg')] w-full bg-cover bg-center">
+            <div className="socialbg w-screen border-2 bg-cover text-white">
+                <div className="backdrop-brightness-[0.25]">
                 <div className="flex flex-row justify-center items-center p-12">
                     <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
                     <h1 className="text-[25px] ml-[-25px] font-bold">Social Handles</h1>
@@ -29,6 +31,7 @@ function Socials() {
                             <span>Facebook</span>
                         </button>
                     </a>
+                </div>
                 </div>
             </div>
         </>
