@@ -4,7 +4,6 @@ import '../socials/socials.css'
 
 function Socials() {
     return (
-        <>
             <div className="socialbg w-screen border-0 bg-cover text-white">
                 <div className="backdrop-brightness-[0.25]">
                 <div className="flex flex-row justify-center items-center p-12">
@@ -34,7 +33,6 @@ function Socials() {
                 </div>
                 </div>
             </div>
-        </>
     );
 }
 
