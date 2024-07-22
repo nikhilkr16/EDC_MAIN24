@@ -17,7 +17,9 @@ function Body() {
         </div>
         <img src={blob} class="absolute w-64 -z-30 left-0 mt-[3rem]"/>
         <img src={blob} class="absolute w-64 -z-30 left-0 top-[165rem] "/>
-            <img src={blobR} class="absolute w-64 -z-30 right-0  mt-[170rem] "/>
+        <img src={blobR} class="absolute w-64 -z-30 right-0  mt-[170rem] "/>
+        <img src={blob} class="absolute w-64 -z-30 left-0 top-[341rem] "/>
+        <img src={blobR} class="absolute w-40 -z-30 right-0  mt-[339rem] "/>
         </div>
      )
  }
