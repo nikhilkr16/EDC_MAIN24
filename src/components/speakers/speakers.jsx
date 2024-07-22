@@ -4,14 +4,13 @@ import "./speakercards.css";
 function Speakers() {
     return (
       <>
-        <div className="flex flex-wrap justify-center items-center mb-16">
-          <div className="glass-morphic pb-6 rounded-2xl w-full max-w-7xl mt-6 shadow-2xl">
-            <div className="m-0 border-y-0 p-12">
+          <div className="glass-morphic lg:m-20 p-4 lg:p-12 shadow-2xl rounded-2xl">
+            <div className="p-4">
               <div className="flex flex-row justify-start items-center">
                 <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
                 <h1 className="text-[25px] ml-[-25px] font-bold">Speakers</h1>
               </div>
-              <div className="mt-12">
+              <div className="mt-6 mb-12">
                 <h1 className="text-[35px] font-bold">Some Past Speakers</h1>
               </div>
             </div>
@@ -76,7 +75,6 @@ function Speakers() {
               <button className="p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]">Know More</button>
             </div>
           </div>
-        </div>
       </>
     );
 }
