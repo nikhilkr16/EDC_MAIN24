@@ -11,6 +11,7 @@ import Wave from "./components/wave/wave.jsx"
 import Slidermain from "./components/Slider/Slidermain.jsx"
 import Testimonial from "./components/Testimonial/Testimonial.jsx"
 import Socials from "./components/socials/socials.jsx"
+import Team from "./otherpages/Teamspage/teams.jsx"
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Wave />
       <Socials />
       <Testimonial/>
+     
       <Footer />
     </div>
   )
