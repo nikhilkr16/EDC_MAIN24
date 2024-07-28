@@ -4,4 +4,31 @@
     width: 320px;
 height: 320px;
 flex-shrink: 0;
+
+}
+
+.prof{
+    display: flex;
+width: 400px;
+height: 550px;
+padding: 72px 54px;
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+gap: 37px;
+flex-shrink: 0;
+flex-wrap: wrap;
+border-radius: 50px;
+background: rgba(255, 255, 255, 0.60);
+backdrop-filter: blur(12.5px);
+}
+
+.text{
+    color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }

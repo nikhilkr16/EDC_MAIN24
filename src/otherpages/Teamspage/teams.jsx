@@ -12,11 +12,20 @@ function Hero() {
 
                 </div>
                 <div className='flex space-x-4 justify-evenly'>
-                    <div>
-                        <img src={sir1} className='sir'/>
+                    <div className='prof1 flex flex-col'>
+                        <div className='prof'>
+                            <img src={sir1} className='sir' />
+                            <div className='text flex align-center text-center'>
+                                <p className='text-center'>Dr. C Jegannathan</p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div>
-                        <img src={sir2} className='sir'/>
+                    <div className='prof'>
+                        <img src={sir2} className='sir' />
+                        <div className='text flex align-center text-center'>
+                                <p className='text-center'>Vishal H. Shah</p>
+                            </div>
                     </div>
                 </div>
             </div>
