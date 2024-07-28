@@ -28,7 +28,7 @@ function App() {
       <Wave />
       <Socials />
       <Testimonial/>
-      
+      <Team/>
       <Footer />
     </div>
   )

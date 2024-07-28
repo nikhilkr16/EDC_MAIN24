@@ -2,6 +2,7 @@ import React from 'react'
 import sir1 from '../../assets/Sir1.png'
 import sir2 from '../../assets/VShah.png'
 import '../Teamspage/teams.css'
+import ujjwalS from '../../assets/ujjalSir.png'
 
 function Hero() {
     return (
@@ -28,6 +29,20 @@ function Hero() {
                             </div>
                     </div>
                 </div>
+                <div className='p-1'>
+                    <h2 className='text-2xl font-bold mb-4 '>Leadership Body</h2>
+
+                </div>
+                <div className='prof1 flex flex-col align-center justify-evenly '>
+                        <div className='prof mx-auto'>
+                            <img src={ujjwalS} className='sir' />
+                            <div className='text flex align-center text-center'>
+                                <p className='text-center'>Ujjwal Aman</p>
+                            </div>
+                        </div>
+
+                    </div>
+
             </div>
         </>
     )
