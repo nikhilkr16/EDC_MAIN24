@@ -16,7 +16,7 @@ const Footer=()=>{
                         Development Cell</h4>
                         </div>
                         <div className="para">
-                        <p>We strive to be at the forefront of technological advancements and industry best practices, consistently exceeding the expectations of our clients.</p>
+                        <p>Our aim is to ignite the flame of entrepreneurship in the minds of youth.</p>
                         <div className="socialmedia">
                            <p><FaFacebook className="facebookIcon" /></p>
                             <p><FaInstagram className="instagramIcon" ></FaInstagram></p>
