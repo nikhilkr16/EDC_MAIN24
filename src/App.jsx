@@ -5,6 +5,7 @@ import Speakerpage from "./otherpages/Speakerpage/Speakerpage.jsx"
 import { createBrowserRouter , RouterProvider } from "react-router-dom"
 import Home from "./Home.jsx"
 import Eventspage from "./otherpages/Eventspage/Eventspage.jsx"
+import Teamspage from "./otherpages/Teamspage/teams.jsx"
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +20,10 @@ function App() {
     {
       path: "/Events",
       element: <><NavBar/><Eventspage/><Footer/></>
+    },
+    {
+      path: "/Team",
+      element: <><NavBar/><Teamspage/><Footer/></>
     },
 
   ])

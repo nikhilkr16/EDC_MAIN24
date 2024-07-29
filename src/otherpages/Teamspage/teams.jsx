@@ -4,7 +4,7 @@ import sir2 from '../../assets/VShah.png'
 import '../Teamspage/teams.css'
 import ujjwalS from '../../assets/ujjalSir.png'
 
-function Hero() {
+function Teamspage() {
     return (
         <>
             <div className=' p-10 hero-2'>
@@ -86,4 +86,4 @@ function Hero() {
     )
 }
 
-export default Hero
+export default Teamspage
