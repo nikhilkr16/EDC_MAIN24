@@ -22,7 +22,7 @@ function Testimonialslider() {
     <div className="slider-container">
       <Slider {...settings}>
         <div className="flex flex-col justify-center items-center text-center p-4">
-            <p>Working with Induz has been a game-changer for our manufacturing operations. Their precision-engineered machinery and expert guidance have not only improved efficiency but also reduced downtime significantly. It's more than a partnership; it's a strategic advantage.</p>
+            <p>Engaging in Entrepreneurship Development Club's events like Ancient Entrepreneurship, Quiz Trivia, and Stock Stoicism has been incredibly enriching. These events offered insights into historical business practices, tested our knowledge, and taught valuable financial strategies. </p>
             <div className="flex flex-row justify-center items-center mt-8 gap-2">
                 <img src={img} alt="" />
                 <div className="flex flex-col">
@@ -32,32 +32,32 @@ function Testimonialslider() {
             </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center p-4">
-            <p>Working with Induz has been a game-changer for our manufacturing operations. Their precision-engineered machinery and expert guidance have not only improved efficiency but also reduced downtime significantly. It's more than a partnership; it's a strategic advantage.</p>
+            <p>The Entrepreneurship Development Club has been a pivotal part of our development journey. Their well-organized events, such as Startup Mela, IPL Auction, Bit Thon etc. have enriched our skills and knowledge in various aspects. The club's dedication to fostering innovation, strategic thinking, and personal growth is truly commendable.</p>
             <div className="flex flex-row justify-center items-center mt-8 gap-2">
                 <img src={img} alt="" />
                 <div className="flex flex-col">
-                    <h1>John Smith</h1>
-                    <p>Industrialist</p>
+                    <h1>BIT Student</h1>
+                    <p>EDC Member</p>
                 </div>
             </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center p-4">
-            <p>Working with Induz has been a game-changer for our manufacturing operations. Their precision-engineered machinery and expert guidance have not only improved efficiency but also reduced downtime significantly. It's more than a partnership; it's a strategic advantage.</p>
+            <p>The Startup Mela gave others funding and exposure, the IPL Auction event enhanced our strategic skills, and Bit Thon inspired creative and technical innovation. The club's commitment to fostering growth is evident in all their well-organized events.</p>
             <div className="flex flex-row justify-center items-center mt-8 gap-2">
                 <img src={img} alt="" />
                 <div className="flex flex-col">
-                    <h1>John Smith</h1>
-                    <p>Industrialist</p>
+                    <h1>BIT Student</h1>
+                    <p>EDC Member</p>
                 </div>
             </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center p-4">
-            <p>Working with Induz has been a game-changer for our manufacturing operations. Their precision-engineered machinery and expert guidance have not only improved efficiency but also reduced downtime significantly. It's more than a partnership; it's a strategic advantage.</p>
+            <p>EDC is not like any other club. Its a breeding ground for future innovators and problem solvers. The culture, the mindest and the whole persona of the society is mind-boggling. The support and the push from the seniors that the juniors get is unreal. </p>
             <div className="flex flex-row justify-center items-center mt-8 gap-2">
                 <img src={img} alt="" />
                 <div className="flex flex-col">
-                    <h1>John Smith</h1>
-                    <p>Industrialist</p>
+                    <h1>BIT Student</h1>
+                    <p>EDC Member</p>
                 </div>
             </div>
         </div>

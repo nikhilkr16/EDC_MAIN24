@@ -9,17 +9,18 @@ function Body() {
         <div className='b-body'>
         
        <div className="heading">
-        <h1 className='h1'> <h3><span>Igniting the innovation</span></h3> within upcoming<span>  trendsetters.</span></h1>
+        <h1 className='h1'> <h3><span>Igniting the innovation</span></h3> within upcoming<span>  ground breakers.</span></h1>
        </div>
        <div className="btn">
         <button className='button'>Let's Start </button>
        </div>
         </div>
-        <img src={blob} class="absolute w-64 -z-30 left-0 mt-[3rem]"/>
-        <img src={blob} class="absolute w-64 -z-30 left-0 top-[165rem] "/>
-        <img src={blobR} class="absolute w-64 -z-30 right-0  mt-[170rem] "/>
-        <img src={blob} class="absolute w-64 -z-30 left-0 top-[341rem] "/>
-        <img src={blobR} class="absolute w-40 -z-30 right-0  mt-[339rem] "/>
+        <img src={blob} class="blob1" />
+        <img src={blob} class="blob2" />
+        <img src={blobR} class="blob3"/>
+        <img src={blob} class="blob4 "/>
+        <img src={blobR} class="blob5"/>
+        <img src={blobR} class="blob6"/>
         </div>
      )
  }
