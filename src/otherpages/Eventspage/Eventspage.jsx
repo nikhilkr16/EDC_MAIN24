@@ -3,6 +3,7 @@ import Card from "./Card"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
+import '../Eventspage/Eventspage.css'
 
 function Eventspage(){
     return(
