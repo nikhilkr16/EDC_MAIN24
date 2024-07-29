@@ -25,8 +25,8 @@ function Hero() {
                     <div className='prof'>
                         <img src={sir2} className='sir' />
                         <div className='text flex align-center text-center'>
-                                <p className='text-center'>Vishal H. Shah</p>
-                            </div>
+                            <p className='text-center'>Vishal H. Shah</p>
+                        </div>
                     </div>
                 </div>
                 <div className='p-1'>
@@ -34,14 +34,52 @@ function Hero() {
 
                 </div>
                 <div className='prof1 flex flex-col align-center justify-evenly '>
+                    <div className='prof mx-auto'>
+                        <img src={ujjwalS} className='sir' />
+                        <div className='text flex align-center text-center'>
+                            <p className='text-center'>Ujjwal Aman</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className='flex'>
+                    <div className='prof mx-auto'>
+                        <img src={ujjwalS} className='sir' />
+                        <div className='text flex align-center text-center'>
+                            <p className='text-center'>Ujjwal Aman</p>
+                        </div>
+                    </div>
+                    <div className='prof mx-auto'>
+                        <img src={ujjwalS} className='sir' />
+                        <div className='text flex align-center text-center'>
+                            <p className='text-center'>Ujjwal Aman</p>
+                        </div>
+                    </div>
+                    <div className='prof mx-auto'>
+                        <img src={ujjwalS} className='sir' />
+                        <div className='text flex align-center text-center'>
+                            <p className='text-center'>Ujjwal Aman</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className='p-1'>
+                        <h2 className='text-2xl font-bold mb-4 '>Executive Body</h2>
+                    </div>
+                    <div className='flex'><div className='prof mx-auto'>
+                        <img src={ujjwalS} className='sir' />
+                        <div className='text flex align-center text-center'>
+                            <p className='text-center'>Ujjwal Aman</p>
+                        </div>
+                    </div>
                         <div className='prof mx-auto'>
                             <img src={ujjwalS} className='sir' />
                             <div className='text flex align-center text-center'>
                                 <p className='text-center'>Ujjwal Aman</p>
                             </div>
                         </div>
-
                     </div>
+                </div>
 
             </div>
         </>
