@@ -36,7 +36,7 @@ const NavBar = () => {
                 <Link spy={true} smooth={true} to="/Events" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Events</li>
                 </Link>
-                <Link spy={true} smooth={true} to="/Speaker" onClick={handleClick}>
+                <Link spy={true} smooth={true} to="/Speakers" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Speakers</li>
                 </Link>
                 <Link spy={true} smooth={true} to="/Team" onClick={handleClick}>
