@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import {Link} from 'react-router-dom';
 import { FaTimes } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import logo from "../assets/edclogo.png";
@@ -30,13 +30,13 @@ const NavBar = () => {
     const content = (
         <div className="lg:hidden block absolute top-16 left-0 right-0 bg-[#111111] transition-all duration-500 ease-in-out">
             <ul className="text-center text-xl py-10">
-                <Link spy={true} smooth={true} to="Home" onClick={handleClick}>
+                <Link spy={true} smooth={true} to="/" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Home</li>
                 </Link>
-                <Link spy={true} smooth={true} to="Events" onClick={handleClick}>
+                <Link spy={true} smooth={true} to="/Events" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Events</li>
                 </Link>
-                <Link spy={true} smooth={true} to="Speakers" onClick={handleClick}>
+                <Link spy={true} smooth={true} to="/Speaker" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Speakers</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Team" onClick={handleClick}>
@@ -78,13 +78,13 @@ const NavBar = () => {
                     <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
                         <div className="flex-10">
                             <ul className="flex gap-4 lg:gap-8 text-[16px] lg:text-[18px]">
-                                <Link spy={true} smooth={true} to="Home">
+                                <Link spy={true} smooth={true} to="/">
                                     <li className="hover:text-yellow-400 transition cursor-pointer">Home</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="Events">
+                                <Link spy={true} smooth={true} to="/Events">
                                     <li className="hover:text-yellow-400 transition cursor-pointer">Events</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="Speakers">
+                                <Link spy={true} smooth={true} to="/Speakers">
                                     <li className="hover:text-yellow-400 transition cursor-pointer">Speakers</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="Team">
