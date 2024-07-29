@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from '../Eventspage/img1.png'
 
 function Card() {
     return(
@@ -6,7 +7,7 @@ function Card() {
             <h1 className="font-bold md:text-[37px]">Formal events</h1>
             <p>Elevating Experiences with Distinguished Events</p>
             <button className="bg-white p-2 rounded-3xl">Explore More</button>
-            <img src="src\otherpages\Eventspage\img1.png" alt="" srcset="" />
+            <img src={img1} alt="" srcset="" />
         </div>
     )
 }

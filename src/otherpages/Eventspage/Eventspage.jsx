@@ -4,6 +4,9 @@ import { FaInstagram } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
 import '../Eventspage/Eventspage.css'
+import event1 from '../Eventspage/event1.png'
+import leaf1 from '../Eventspage/leaf.png'
+import leaf2 from '../Eventspage/leaf2.png'
 
 function Eventspage(){
     return(
@@ -28,9 +31,9 @@ function Eventspage(){
                     <Card/>
                 </div>
                 <div className="flex lg:flex-row bg-white p-20 text-center justify-center items-center">
-                    <img src="src\otherpages\Eventspage\leaf.png" alt="" />
+                    <img src={leaf1} alt="" />
                     <p className="md:text-[32px]">Stay informed about all our upcoming events by following us on our social media handles. Connect with us for the     latest updates, announcements, and exclusive content!</p>
-                    <img src="src\otherpages\Eventspage\leaf2.png" alt="" />
+                    <img src={leaf2} alt="" />
                 </div>
                 <div className="flex flex-row justify-center items-center gap-6">
                     <a href="https://www.instagram.com/edcbitmesra/"><FaInstagram className="w-14 h-14"/></a>
@@ -42,11 +45,11 @@ function Eventspage(){
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">formal events</h1>
                     <div className="grid md:grid-cols-3 grid-cols-2 ">
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
                     </div>
                 </div>
             </div>
@@ -54,11 +57,11 @@ function Eventspage(){
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">formal events</h1>
                     <div className="grid md:grid-cols-3 grid-cols-2 ">
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
                     </div>
                 </div>
             </div>
@@ -66,11 +69,11 @@ function Eventspage(){
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">formal events</h1>
                     <div className="grid md:grid-cols-3 grid-cols-2 ">
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
-                        <img src="src\otherpages\Eventspage\event1.png" alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
+                        <img src={event1} alt="" srcset="" />
                     </div>
                 </div>
             </div>
