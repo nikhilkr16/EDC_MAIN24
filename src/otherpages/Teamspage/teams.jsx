@@ -12,7 +12,7 @@ function Teamspage() {
                     <h2 className='text-2xl font-bold mb-4 '>Faculty Member</h2>
 
                 </div>
-                <div className='flex space-x-4 justify-evenly'>
+                <div className='flex space-x-4 justify-evenly columns'>
                     <div className='prof1 flex flex-col'>
                         <div className='prof'>
                             <img src={sir1} className='sir' />
@@ -29,42 +29,44 @@ function Teamspage() {
                         </div>
                     </div>
                 </div>
-                <div className='p-1'>
-                    <h2 className='text-2xl font-bold mb-4 '>Leadership Body</h2>
-
-                </div>
-                <div className='prof1 flex flex-col align-center justify-evenly '>
-                    <div className='prof mx-auto'>
-                        <img src={ujjwalS} className='sir' />
-                        <div className='text flex align-center text-center'>
-                            <p className='text-center'>Ujjwal Aman</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className='flex'>
-                    <div className='prof mx-auto'>
-                        <img src={ujjwalS} className='sir' />
-                        <div className='text flex align-center text-center'>
-                            <p className='text-center'>Ujjwal Aman</p>
-                        </div>
-                    </div>
-                    <div className='prof mx-auto'>
-                        <img src={ujjwalS} className='sir' />
-                        <div className='text flex align-center text-center'>
-                            <p className='text-center'>Ujjwal Aman</p>
-                        </div>
-                    </div>
-                    <div className='prof mx-auto'>
-                        <img src={ujjwalS} className='sir' />
-                        <div className='text flex align-center text-center'>
-                            <p className='text-center'>Ujjwal Aman</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
+                <div className='columns'>
                     <div className='p-1'>
-                        <h2 className='text-2xl font-bold mb-4 '>Executive Body</h2>
+                        <h2 className='text-2xl font-bold mb-4 '>Leadership Body</h2>
+
+                    </div>
+                    <div className='prof1 flex flex-col align-center justify-evenly '>
+                        <div className='prof mx-auto'>
+                            <img src={ujjwalS} className='sir' />
+                            <div className='text flex align-center text-center'>
+                                <p className='text-center'>Ujjwal Aman</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='flex'>
+                        <div className='prof mx-auto'>
+                            <img src={ujjwalS} className='sir' />
+                            <div className='text flex align-center text-center'>
+                                <p className='text-center'>Ujjwal Aman</p>
+                            </div>
+                        </div>
+                        <div className='prof mx-auto'>
+                            <img src={ujjwalS} className='sir' />
+                            <div className='text flex align-center text-center'>
+                                <p className='text-center'>Ujjwal Aman</p>
+                            </div>
+                        </div>
+                        <div className='prof mx-auto'>
+                            <img src={ujjwalS} className='sir' />
+                            <div className='text flex align-center text-center'>
+                                <p className='text-center'>Ujjwal Aman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='columns'>
+                    <div className='p-1'>
+                        <h2 className='text-2xl font-bold mb-4'>Executive Body</h2>
                     </div>
                     <div className='flex'><div className='prof mx-auto'>
                         <img src={ujjwalS} className='sir' />
