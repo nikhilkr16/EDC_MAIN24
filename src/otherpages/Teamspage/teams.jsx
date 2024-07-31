@@ -4,6 +4,9 @@ import sir1 from '../../assets/Sir1.png'
 import sir2 from '../../assets/VShah.png'
 import '../Teamspage/teams.css'
 import ujjwalS from '../../assets/ujjalSir.png'
+import KumarVarun from '../../assets/2nd.png'
+import VedantGupta from '../../assets/VedantGupta.png'
+import MugdhaShukla from '../../assets/MugdhaShukla.png'
 
 
 function Teamspage() {
