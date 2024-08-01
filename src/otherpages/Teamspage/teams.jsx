@@ -6,6 +6,8 @@ import '../Teamspage/teams.css'
 import ujjwalS from '../../assets/ujjalSir.png'
 import edclogo from "../../assets/logo.png";
 import '../Teamspage/timeline.css';
+import blob from "../../assets/blobs.png"
+import blobR from "../../assets/blobR.png"
 import KumarVarun from '../../assets/2nd.png'
 import VedantGupta from '../../assets/VedantGupta.png'
 import MugdhaShukla from '../../assets/MugdhaShukla.png'
@@ -98,29 +100,29 @@ function Teamspage() {
     <div className='timeline'>
     <div class="container left-container">
          <img src={edclogo} alt="EDC Logo" />
-                    <div class="text-box">
-                <h2>Alphabet Inc.</h2>
-                <small>2018-2019</small>
-                <p>The sucess of every websites depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search...</p>
+                    <div class="text-box txtx">
+                <h2>EDC President</h2>
+                <small>2017-2018</small>
+                <p>Narendra Modi</p>
                 <span class="left-container-arrow"></span>
             </div>
             </div>
       <div className="container right-container">
         <img src={edclogo} alt="EDC Logo" />
         <div className="text-box">
-          <h2>Amazon Inc.</h2>
+          <h2>EDC President</h2>
+          <small>2018-2019</small>
+          <p>Narendra Modi</p>
+          <span className="right-container-arrow"></span>
+        </div>
+      </div>
+
+      <div className="container left-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="text-box txtx">
+          <h2>EDC President</h2>
           <small>2019-2020</small>
-          <p>The success of every website depends on search engine optimization and digital marketing strategy. If you are on the first page of all major search...</p>
-          <span className="right-container-arrow"></span>
-        </div>
-      </div>
-
-      <div className="container left-container">
-        <img src={edclogo} alt="EDC Logo" />
-        <div className="text-box">
-          <h2>Tesla Inc.</h2>
-          <small>2020-2021</small>
-          <p>The success of every website depends on search engine optimization and digital marketing strategy. If you are on the first page of all major search...</p>
+          <p>Narendra Modi</p>
           <span className="left-container-arrow"></span>
         </div>
       </div>
@@ -128,19 +130,19 @@ function Teamspage() {
       <div className="container right-container">
         <img src={edclogo} alt="EDC Logo" />
         <div className="text-box">
-          <h2>Toyota</h2>
-          <small>2021-2022</small>
-          <p>The success of every website depends on search engine optimization and digital marketing strategy. If you are on the first page of all major search...</p>
+          <h2>EDC President</h2>
+          <small>2020-2021</small>
+          <p>Narendra Modi</p>
           <span className="right-container-arrow"></span>
         </div>
       </div>
 
       <div className="container left-container">
         <img src={edclogo} alt="EDC Logo" />
-        <div className="text-box">
-          <h2>Flipkart</h2>
-          <small>2020-2021</small>
-          <p>The success of every website depends on search engine optimization and digital marketing strategy. If you are on the first page of all major search...</p>
+        <div className="text-box txtx">
+          <h2>EDC President</h2>
+          <small>2021-2022</small>
+          <p>Narendra Modi</p>
           <span className="left-container-arrow"></span>
         </div>
       </div>
@@ -148,15 +150,19 @@ function Teamspage() {
       <div className="container right-container">
         <img src={edclogo} alt="EDC Logo" />
         <div className="text-box">
-          <h2>YouTube</h2>
-          <small>2021-2022</small>
-          <p>The success of every website depends on search engine optimization and digital marketing strategy. If you are on the first page of all major search...</p>
+          <h2>EDC President</h2>
+          <small>2022-2023</small>
+          <p>Narendra Modi</p>
           <span className="right-container-arrow"></span>
         </div>
       </div>
     </div>
     </div>
         </div>
+        <img src={blob} class="blob11" />
+        <img src={blob} class="blob22" />
+        <img src={blobR} class="blob33"/>
+        <img src={blobR} class="blob55"/>
         </>
     )
 }
