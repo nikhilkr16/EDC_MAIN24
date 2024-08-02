@@ -13,3 +13,89 @@ body{
     .eventbg{
       background-image: url('./eventbg.svg');
     }
+    .event-card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+    }
+    
+    .event-card {
+      position: relative;
+      width: 300px; /* Adjust the width as needed */
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+    
+    .event-card:hover {
+      transform: scale(1.05);
+    }
+    
+    .event-image {
+      width: 100%;
+      height: auto;
+    }
+    
+    .event-details {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.903);
+      padding: 20px;
+      border-radius: 35px 35px 0px 0px;
+      text-align: left;
+      transition: transform 0.3s, opacity 0.3s;
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    
+    .event-card:hover .event-details {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+    .event-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .event-details h2 {
+      font-weight: 500;
+      margin: 0;
+      font-size: 15px;
+      color: #000;
+    }
+    
+    .event-details p {
+      margin: 5px 0;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .event-details h4 {
+      margin: 5px 0;
+      font-size: 12px;
+      color: #000000;
+    }
+    
+    .participate-button {
+      margin-left: auto; 
+      padding: 5px 10px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 11px;
+    }
+    
+    .participate-button:hover {
+      background-color: #218838;
+    }
+    
+    
