@@ -57,7 +57,6 @@
 }
 .left-container{
     right: 50%;
-    text-align: right;
    
 }
 .right-container{
@@ -126,21 +125,17 @@
 }
 @media screen and (max-width: 600px){
     .timeline::after{
-        left: 0px;
+        left: -5px;
     }
     .container{
-        width: 500px;
+        width: 100%;
         padding-left: 80px;
         padding-right: 25px;
         object-fit: cover;
     }
     .text-box{
-        width: 120px;
-        font-size: 10px;
+        font-size: 13px;
         object-fit: cover;
-        font-weight: bold;
-        text-align: left;
-
     }
     .text-box small{
         margin-bottom: 10px;
@@ -152,7 +147,7 @@
         right: 0;
     }
     .left-container img, .right-container img{
-        left: -20px ;
+        left: 0px ;
     }
     .left-container-arrow, .right-container-arrow{
         border-right: 15px solid #dadada ;
@@ -161,69 +156,4 @@
     }
 
     }
-    .blob11 {
-        position: absolute;
-        width: 13rem; /* w-64 corresponds to 16rem */
-        z-index: 1; /* -z-30 corresponds to z-index: -30 */
-        left: 0px;
-        top: 58rem; /* mt-[3rem] corresponds to margin-top: 3rem */
-        opacity: 0.8;
-      }
-    .blob22 {
-        position: absolute;
-        width: 14rem; /* w-64 corresponds to 16rem */
-        z-index: 1; /* -z-30 corresponds to z-index: -30 */
-        left: 0;
-        top: 120rem; /* top-[165rem] corresponds to top: 165rem */
-        opacity: 0.8;
-      }
-    .blob33 {
-        position: absolute;
-        width: 12rem; /* w-64 corresponds to 16rem */
-        z-index: 30; /* -z-30 corresponds to z-index: -30 */
-        right: 0;
-        top: 210rem; /* mt-[170rem] corresponds to margin-top: 170rem */
-        opacity: 0.8;
-      }
-    .blob55 {
-        position: absolute;
-        width: 12rem; /* w-40 corresponds to 10rem */
-        z-index: 30; /* -z-30 corresponds to z-index: -30 */
-        right: 0;
-        top: 90rem; /* mt-[339rem] corresponds to margin-top: 339rem */
-        opacity: 0.8;
-      }
-      
-      @media screen and (max-width:650px) {
-        .blob11 {
-            position: absolute;
-            width: 0rem;
-            height: auto;
-            z-index: -30;
-            left: 0;
-        }
-        .blob22 {
-            position: absolute;
-            width: 0rem;
-            height: auto;
-            top: 10rem;
-            z-index: -30;
-            left: 0;
-        }
-        .blob33 {
-            position: absolute;
-            width: 0rem;
-            top: 7rem;
-            z-index: -30;
-            right: 0;
-        }
-        .blob55 {
-            position: absolute;
-            width: 0rem;
-            height: auto;
-            margin-top: 30rem;
-            z-index: -30;
-    
-        }
-      }
 
