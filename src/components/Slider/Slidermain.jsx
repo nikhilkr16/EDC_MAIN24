@@ -7,7 +7,8 @@ import blobR from "../../assets/blobR.png"
 function Slidermain() {
     
     return(
-        <div className="glass-morphic lg:m-20 p-4 lg:p-12 m-4 shadow-2xl rounded-2xl my-16 ">
+        <div className="w-screen">
+        <div className="glass-morphic lg:m-20 p-4 lg:p-12 m-4 shadow-2xl rounded-2xl my-16">
             <div className="flex flex-row justify-start items-center">
                 <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
                 <h1 className="text-[25px] ml-[-30px] font-bold">Gallery</h1>
@@ -19,6 +20,7 @@ function Slidermain() {
                     <Slider/> 
             </div>
             
+        </div>
         </div>
     )
     

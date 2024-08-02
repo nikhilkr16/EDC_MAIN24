@@ -23,58 +23,70 @@ function Speakerpage() {
                 <h1 className="text-[35px] font-bold">E-Summit’24</h1>
             </div>
             <div className='grid md:grid-cols-3 grid-cols-2 md:p-20'>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img1} className='' alt="" />
                 <h1>Akshay Makar</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img2} alt="" />
                 <h1>Vatsal Kanakiya</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img3} alt="" />
                 <h1>Ravi K Ranjan</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img1} alt="" />
                 <h1>Akshay Makar</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img2} alt="" />
                 <h1>Vatsal Kanakiya</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img3} alt="" />
                 <h1>Ravi K Ranjan</h1>
+                <h2>founder</h2>
               </div>
             </div>
             <div className="mt-40">
                 <h1 className="text-[35px] font-bold">Inventor’s Forge</h1>
             </div>
             <div className='grid md:grid-cols-3 grid-cols-2 md:p-20'>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img1} alt="" />
                 <h1>Akshay Makar</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img2} alt="" />
                 <h1>Vatsal Kanakiya</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img3} alt="" />
                 <h1>Ravi K Ranjan</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img1} alt="" />
                 <h1>Akshay Makar</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img2} alt="" />
                 <h1 className='text-auto'>Vatsal Kanakiya</h1>
+                <h2>founder</h2>
               </div>
-              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-8 font-bold'>
+              <div className='flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={img3} alt="" />
                 <h1>Ravi K Ranjan</h1>
+                <h2>founder</h2>
               </div>
             </div>
             

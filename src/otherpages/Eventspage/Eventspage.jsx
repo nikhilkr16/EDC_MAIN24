@@ -20,12 +20,14 @@ import event13 from '../Eventspage/Image(EVENT)/event13.png'
 import event14 from '../Eventspage/Image(EVENT)/event14.png'
 import leaf1 from '../Eventspage/leaf.png'
 import leaf2 from '../Eventspage/leaf2.png'
+import Slidermain from '/src/components/Slider/Slidermain.jsx' 
+import Socials from "../../components/socials/socials"
 
 function Eventspage(){
     return(
         <>
         <div className="flex flex-col items-center w-screen">
-            <div className="eventbg h-screen text-white ">
+            <div className="eventbg h-screen w-screen text-white ">
                 <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center">
                 <h1 className="lg:px-48">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
                 <button className="md:text-[25px] px-4 mt-6 border border-white rounded">Let's Start</button>
@@ -244,6 +246,8 @@ function Eventspage(){
                     </div>
                 </div>
             </div>
+            <Slidermain/>
+            <Socials/>
         </div>
         </>
     )
