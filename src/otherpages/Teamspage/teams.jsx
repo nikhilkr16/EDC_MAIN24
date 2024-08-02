@@ -11,6 +11,7 @@ import blobR from "../../assets/blobR.png"
 import KumarVarun from '../../assets/2nd.png'
 import VedantGupta from '../../assets/VedantGupta.png'
 import MugdhaShukla from '../../assets/MugdhaShukla.png'
+import def from '../../assets/def.png'
 
 function Teamspage() {
     return (
@@ -55,21 +56,21 @@ function Teamspage() {
                     </div>
                     <div className='flex'>
                         <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
+                            <img src={KumarVarun} className='sir' />
                             <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
+                                <p className='text-center'>Kumar Varun</p>
                             </div>
                         </div>
                         <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
+                            <img src={VedantGupta} className='sir' />
                             <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
+                                <p className='text-center'>Vedant Gupta</p>
                             </div>
                         </div>
                         <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
+                            <img src={MugdhaShukla} className='sir' />
                             <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
+                                <p className='text-center'>Mugdha Shukla</p>
                             </div>
                         </div>
                     </div>
@@ -79,13 +80,13 @@ function Teamspage() {
                         <h2 className='text-2xl font-bold mb-4'>Executive Body</h2>
                     </div>
                     <div className='flex'><div className='prof mx-auto'>
-                        <img src={ujjwalS} className='sir' />
+                        <img src={def} className='sir' />
                         <div className='text flex align-center text-center'>
                             <p className='text-center'>Ujjwal Aman</p>
                         </div>
                     </div>
                         <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
+                            <img src={def} className='sir' />
                             <div className='text flex align-center text-center'>
                                 <p className='text-center'>Ujjwal Aman</p>
                             </div>
