@@ -5,7 +5,7 @@ function Sponser() {
     
     <div>
         <div className=' mt-24 mb-16'>
-        <h2 className='text-sm font-semibold ml-24 spon1' ><span className=' bg-yellow-300 pt-2 pb-2 pl-3'>Sp</span>onsorship</h2>
+        <h2 className='font-bold ml-24 spon1 text-[25px]' ><span className=' bg-[#FED853] pt-2 pb-2 pl-3'>Sp</span>onsorship</h2>
         <h1 className='text-2xl font-bold ml-24 mt-5 spon1'>Our Past Sponsers</h1>
         <div className='flex overflow-hidden mt-10'>
         <div className=' flex animate-infinte-slide shrink-0 whitespace-nowrap'>

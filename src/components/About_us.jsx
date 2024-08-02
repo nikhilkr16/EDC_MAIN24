@@ -11,7 +11,7 @@ function About_us() {
     <div className='h-56 w-full bg-transparent flex justify-center items-center absolute -bottom-36 about_us1'>
     <div className=' h-56 w-2/3 bg-white shadow-2xl p-7 rounded-xl flex about-morphic about_us2 '>
         <div  className='w-2/3 pr-14 about_us3'>
-            <div> <h3  className=' text-xl font-bold mb-2 '><span className='bg-yellow-200 pb-1 pt-1 pl-1'>Ab</span>out Us</h3></div>
+            <div> <h3  className=' text-xl font-bold mb-2 '><span className='bg-[#FED853] pb-1 pt-1 pl-1'>Ab</span>out Us</h3></div>
       <div><h3 className=' text-base font-bold  mb-1 mt-1'>WHAT IS E-CELL ?</h3>
         </div>
         <div className='p-1'> <p className=' text-xs mt-3 content1'>The Entrepreneurship Cell (E-Cell) at BIT MESRA 

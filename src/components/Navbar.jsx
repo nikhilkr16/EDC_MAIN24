@@ -3,8 +3,15 @@ import {Link} from 'react-router-dom';
 import { FaTimes } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import logo from "../assets/edclogo.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const NavBar = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+
     const [click, setClick] = useState(false);
     const [scroll, setScroll] = useState(false);
 
@@ -28,22 +35,22 @@ const NavBar = () => {
     }, []);
 
     const content = (
-        <div className="lg:hidden block absolute top-16 left-0 right-0 bg-[#111111] transition-all duration-500 ease-in-out">
+        <div data-aos="fade-down" className="lg:hidden block absolute top-16 left-0 right-0 bg-[#111111] transition-all duration-[5000ms] delay-[800ms] ease-in-out">
             <ul className="text-center text-xl py-10">
                 <Link spy={true} smooth={true} to="/" onClick={handleClick}>
-                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Home</li>
+                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded transition">Home</li>
                 </Link>
                 <Link spy={true} smooth={true} to="/Events" onClick={handleClick}>
-                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Events</li>
+                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded transition">Events</li>
                 </Link>
                 <Link spy={true} smooth={true} to="/Speakers" onClick={handleClick}>
-                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Speakers</li>
+                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded transition">Speakers</li>
                 </Link>
                 <Link spy={true} smooth={true} to="/Team" onClick={handleClick}>
-                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">Team</li>
+                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded transition">Team</li>
                 </Link>
                 <Link spy={true} smooth={true} to="App" onClick={handleClick}>
-                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded">App</li>
+                    <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded transition">App</li>
                 </Link>
             </ul>
         </div>
