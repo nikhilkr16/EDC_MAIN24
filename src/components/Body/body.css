@@ -98,61 +98,61 @@
 }
 .blob1 {
     position: absolute;
-    width: 14rem; /* w-64 corresponds to 16rem */
+    width: 16rem; /* w-64 corresponds to 16rem */
     z-index: -30; /* -z-30 corresponds to z-index: -30 */
     left: 0;
-    margin-top: 6rem; /* mt-[3rem] corresponds to margin-top: 3rem */
+    margin-top: 3rem; /* mt-[3rem] corresponds to margin-top: 3rem */
   }
 .blob2 {
     position: absolute;
-    width: 14rem; /* w-64 corresponds to 16rem */
+    width: 16rem; /* w-64 corresponds to 16rem */
     z-index: -30; /* -z-30 corresponds to z-index: -30 */
     left: 0;
-    margin-top: 77rem; /* top-[165rem] corresponds to top: 165rem */
+    top: 165rem; /* top-[165rem] corresponds to top: 165rem */
   }
 .blob3 {
     position: absolute;
-    width: 13rem; /* w-64 corresponds to 16rem */
+    width: 16rem; /* w-64 corresponds to 16rem */
     z-index: -30; /* -z-30 corresponds to z-index: -30 */
     right: 0;
-    margin-top: 133rem; /* mt-[170rem] corresponds to margin-top: 170rem */
+    margin-top: 170rem; /* mt-[170rem] corresponds to margin-top: 170rem */
   }
 .blob4 {
     position: absolute;
-    width: 13rem; /* w-64 corresponds to 16rem */
+    width: 16rem; /* w-64 corresponds to 16rem */
     z-index: -30; /* -z-30 corresponds to z-index: -30 */
     left: 0;
-    margin-top: 258rem; /* top-[341rem] corresponds to top: 341rem */
+    top: 341rem; /* top-[341rem] corresponds to top: 341rem */
   }
 .blob5 {
     position: absolute;
     width: 10rem; /* w-40 corresponds to 10rem */
     z-index: -30; /* -z-30 corresponds to z-index: -30 */
     right: 0;
-    margin-top: 300rem; /* mt-[339rem] corresponds to margin-top: 339rem */
+    margin-top: 339rem; /* mt-[339rem] corresponds to margin-top: 339rem */
   }
 .blob6 {
     position: absolute;
-    width: 13rem; /* w-64 corresponds to 16rem */
+    width: 16rem; /* w-64 corresponds to 16rem */
     z-index: -30; /* -z-30 corresponds to z-index: -30 */
     right: 0;
-    top: 93rem; /* top-[50rem] corresponds to top: 50rem */
+    top: 90rem; /* top-[50rem] corresponds to top: 50rem */
   }
   
-  @media screen and (max-width:650px) {
+  @media screen and (max-width:750px) {
     .blob1 {
         position: absolute;
-        width: 10rem;
+        width: 12rem;
         height: auto;
-        margin-top: 10rem;
+        margin-top: 30px;
         z-index: -30;
         left: 0;
     }
     .blob2 {
         position: absolute;
-        width: 11rem;
+        width: 12rem;
         height: auto;
-        top: 120rem;
+        top: 2900px;
         z-index: -30;
         left: 0;
     }
@@ -160,22 +160,22 @@
         position: absolute;
         width: 10rem;
         height: auto;
-        top: 77rem;
+        top: 1630px;
         z-index: -30;
         right: 0;
     }
     .blob4 {
         position: absolute;
-        width: 11rem;
+        width: 10rem;
         height: auto;
-        top: 2000px;
+        top: 6341px;
         z-index: -30;
     }
     .blob5 {
         position: absolute;
         width: 8rem;
         height: auto;
-        margin-top: 330rem;
+        top: 1600px;
         z-index: -30;
 
     }
@@ -183,7 +183,7 @@
         position: absolute;
         width: 10rem;
         height: auto;
-        top: 92rem;
+        top: 1400px;
         z-index: -30;
 
     }
