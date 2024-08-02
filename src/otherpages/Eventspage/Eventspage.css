@@ -13,3 +13,138 @@ body{
     .eventbg{
       background-image: url('./eventbg.svg');
     }
+    .event-card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+    }
+    
+    .event-card {
+      position: relative;
+      width: 300px; /* Adjust the width as needed */
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+    
+    .event-card:hover {
+      transform: scale(1.05);
+    }
+    
+    .event-image {
+      width: 100%;
+      height: auto;
+    }
+    
+    .event-details {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.903);
+      padding: 20px;
+      border-radius: 35px 35px 0px 0px;
+      text-align: left;
+      transition: transform 0.3s, opacity 0.3s;
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    
+    .event-card:hover .event-details {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+    .event-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .event-details h2 {
+      font-weight: 500;
+      margin: 0;
+      font-size: 15px;
+      color: #000;
+    }
+    
+    .event-details p {
+      margin: 5px 0;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .event-details h4 {
+      margin: 5px 0;
+      font-size: 12px;
+      color: #000000;
+    }
+    
+    .participate-button {
+      margin-left: auto; 
+      padding: 5px 10px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 11px;
+    }
+    
+    .participate-button:hover {
+      background-color: #218838;
+    }
+    @media (max-width: 768px) {
+      .event-card-container {
+        margin: 10px;
+      }
+    
+      .event-card {
+        max-width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+    
+      .event-details {
+        padding: 15px;
+      }
+    
+      .event-details h2 {
+        font-size: 16px;
+      }
+    
+      .event-details p {
+        font-size: 12px;
+      }
+    
+      .participate-button {
+        padding: 5px 8px;
+        font-size: 10px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .event-card-container {
+        margin: 5px;
+      }
+    
+      .event-details {
+        padding: 10px;
+      }
+    
+      .event-details h2 {
+        font-size: 14px;
+      }
+    
+      .event-details p {
+        font-size: 10px;
+      }
+    
+      .participate-button {
+        padding: 4px 6px;
+        font-size: 9px;
+      }
+    }
+    
