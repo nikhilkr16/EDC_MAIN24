@@ -2,12 +2,16 @@ body{
     overflow-x: hidden;
   }
   
-  .recbox1{
+  /* .recbox1{
     position: relative;
     z-index: 9;
-    margin-top: -50px;
-    margin-bottom: -100px;
-  }
+    /* margin-top: -50px;
+    margin-bottom: -100px; */
+
+
+   
+
+  
   
   
     .eventbg{

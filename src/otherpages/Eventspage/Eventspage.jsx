@@ -14,18 +14,18 @@ function Eventspage(){
         <div className="flex flex-col items-center w-screen">
             <div className="eventbg h-screen text-white ">
                 <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center">
-                <h1 className="lg:px-48">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
-                <button className="md:text-[25px] px-4 mt-6 border border-white rounded">Let's Start</button>
+                <h1 className="lg:px-48 t-headline2">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
+                <button className="md:text-[25px] p-2 pr-5 pl-5 mt-6 border border-white rounded hover:bg-white hover:scale-110 hover:text-black h-button h-btn">Let's Start</button>
                 </div>
             </div>
-            <div className="h-[150px] w-[50%] bg-black rounded-3xl text-white flex items-center justify-center recbox1">
-                <h1 className="text-center lg:text-[64px]">INVESTOR’S FORGE</h1>
+            <div className="h-32 w-1/2 bg-black rounded-2xl text-white flex items-center justify-center -mt-16 t-head">
+                <h1 ><span className="text-center text-5xl leading-3 t-headline2">INVESTOR’S FORGE</span></h1>
             </div>
             <div className="bg-white w-screen overflow-hidden">
                 <div className="mt-[150px] text-center text-slate-700">
                     <h1 className="lg:text-[50px]">Broad spectrum of events we offer!</h1>
                 </div>
-                <div className="flex md:flex-row flex-col gap-4 justify-center items-center mt-20">
+                <div className="flex md:flex-row flex-col gap-10 justify-center items-center mt-10 pl-10 pr-10 t-cards">
                     <Card/>
                     <Card/>
                     <Card/>
