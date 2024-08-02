@@ -45,11 +45,71 @@ function Eventspage(){
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">formal events</h1>
                     <div className="grid md:grid-cols-3 grid-cols-2 ">
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
+                    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
                     </div>
                 </div>
             </div>
@@ -57,11 +117,58 @@ function Eventspage(){
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">formal events</h1>
                     <div className="grid md:grid-cols-3 grid-cols-2 ">
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
+                    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
                     </div>
                 </div>
             </div>
@@ -69,11 +176,71 @@ function Eventspage(){
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">formal events</h1>
                     <div className="grid md:grid-cols-3 grid-cols-2 ">
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
-                        <img src={event1} alt="" srcset="" />
+                    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
+    <div className="event-card-container">
+      <div className="event-card">
+        <img src={event1} alt="Event" className="event-image" />
+        <div className="event-details">
+          <div className="event-header">
+            <h2>BGMI</h2>
+            <button className="participate-button">PARTICIPATE</button>
+          </div>
+          <p>VENUE: ROOM 312</p>
+          <h4>DATE: 24/03/24</h4>
+        </div>
+      </div>
+    </div>
                     </div>
                 </div>
             </div>
