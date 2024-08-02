@@ -4,6 +4,7 @@ import sir1 from '../../assets/Sir1.png'
 import sir2 from '../../assets/VShah.png'
 import '../Teamspage/teams.css'
 import ujjwalS from '../../assets/ujjalSir.png'
+<<<<<<< HEAD
 import edclogo from "../../assets/logo.png";
 import '../Teamspage/timeline.css';
 import blob from "../../assets/blobs.png"
@@ -12,6 +13,9 @@ import KumarVarun from '../../assets/2nd.png'
 import VedantGupta from '../../assets/VedantGupta.png'
 import MugdhaShukla from '../../assets/MugdhaShukla.png'
 import def from '../../assets/def.png'
+=======
+
+>>>>>>> parent of dfc9a57 (imports)
 
 function Teamspage() {
     return (
