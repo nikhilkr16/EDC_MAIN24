@@ -59,7 +59,7 @@ function Eventspage(){
             <div className="md:m-20 m-12">
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">formal events</h1>
-                    <div className="grid md:grid-cols-3 grid-cols-1 ">
+                    <div className="grid md:grid-cols-3 grid-cols-2 ">
                     <div className="event-card-container">
       <div className="event-card">
         <img src={event1} alt="Event" className="event-image" />
@@ -131,7 +131,7 @@ function Eventspage(){
             <div className="md:m-20 m-12">
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">semi-formal events</h1>
-                    <div className="grid md:grid-cols-3 grid-cols-1 ">
+                    <div className="grid md:grid-cols-3 grid-cols-2 ">
                     <div className="event-card-container">
       <div className="event-card">
         <img src={event7} alt="Event" className="event-image" />
@@ -190,7 +190,7 @@ function Eventspage(){
             <div className="md:m-20 m-12">
                 <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
                     <h1 className="font-bold text-[32px] uppercase">informal events</h1>
-                    <div className="grid md:grid-cols-3 grid-cols-1 ">
+                    <div className="grid md:grid-cols-3 grid-cols-2 ">
                     <div className="event-card-container">
       <div className="event-card">
         <img src={event12} alt="Event" className="event-image" />
