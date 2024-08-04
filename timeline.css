@@ -1,0 +1,229 @@
+.boxx{
+    background-color: white;
+}
+
+.timeline{
+    position:relative;
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+@keyframes movedown{
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.container:nth-child(1){
+    animation-delay: 0s;
+}
+.container:nth-child(2){
+    animation-delay: 1s;
+}
+.container:nth-child(3){
+    animation-delay: 2s;
+}
+.container:nth-child(4){
+    animation-delay: 3s;
+}
+.container:nth-child(5){
+    animation-delay: 4s;
+}
+.container:nth-child(6){
+    animation-delay: 5s;
+}
+
+.text-box{
+    padding: 20px 30px;
+    background: #dadada;
+    position:relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.left-container{
+    right: 50%;
+    text-align: right;
+   
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left: -20px
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #000000;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 10;
+    animation: moveline 6s linear forwards;
+}
+@keyframes moveline {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+.text-box h2{
+    font-weight: 600;
+}
+.text-box small{
+    display:inline-block;
+    margin-bottom: 15px;
+}
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #dadada;
+    right: -15px;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #dadada;
+    left: -15px;
+}
+@media screen and (max-width: 600px){
+    .timeline::after{
+        left: 0px;
+    }
+    .container{
+        width: 500px;
+        padding-left: 80px;
+        padding-right: 25px;
+        object-fit: cover;
+    }
+    .text-box{
+        width: 120px;
+        font-size: 10px;
+        object-fit: cover;
+        font-weight: bold;
+        text-align: left;
+
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container{
+        right: 0;
+    }
+    .left-container img, .right-container img{
+        left: -20px ;
+    }
+    .left-container-arrow, .right-container-arrow{
+        border-right: 15px solid #dadada ;
+        border-left: 0;
+        left: -15px;
+    }
+
+    }
+    .blob11 {
+        position: absolute;
+        width: 13rem; /* w-64 corresponds to 16rem */
+        z-index: 1; /* -z-30 corresponds to z-index: -30 */
+        left: 0px;
+        top: 58rem; /* mt-[3rem] corresponds to margin-top: 3rem */
+        opacity: 0.8;
+      }
+    .blob22 {
+        position: absolute;
+        width: 14rem; /* w-64 corresponds to 16rem */
+        z-index: 1; /* -z-30 corresponds to z-index: -30 */
+        left: 0;
+        top: 120rem; /* top-[165rem] corresponds to top: 165rem */
+        opacity: 0.8;
+      }
+    .blob33 {
+        position: absolute;
+        width: 12rem; /* w-64 corresponds to 16rem */
+        z-index: 30; /* -z-30 corresponds to z-index: -30 */
+        right: 0;
+        top: 210rem; /* mt-[170rem] corresponds to margin-top: 170rem */
+        opacity: 0.8;
+      }
+    .blob55 {
+        position: absolute;
+        width: 12rem; /* w-40 corresponds to 10rem */
+        z-index: 30; /* -z-30 corresponds to z-index: -30 */
+        right: 0;
+        top: 90rem; /* mt-[339rem] corresponds to margin-top: 339rem */
+        opacity: 0.8;
+      }
+      
+      @media screen and (max-width:649px) {
+        .blob11 {
+            position: absolute;
+            width: 0rem;
+            height: auto;
+            z-index: -30;
+            left: 0;
+        }
+        .blob22 {
+            position: absolute;
+            width: 0rem;
+            height: auto;
+            top: 10rem;
+            z-index: -30;
+            left: 0;
+        }
+        .blob33 {
+            position: absolute;
+            width: 0rem;
+            top: 7rem;
+            z-index: -30;
+            right: 0;
+        }
+        .blob55 {
+            position: absolute;
+            width: 0rem;
+            height: auto;
+            margin-top: 30rem;
+            z-index: -30;
+    
+        }
+      }
+
