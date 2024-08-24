@@ -8,10 +8,10 @@ import '../Speakerpage/speakerpage.css'
 function Speakerpage() {
   return (
     <>
-    <div className="flex flex-col items-center w-screen">
+    <div className="speakerbgg flex flex-col items-center w-screen">
             <div className="speakerbg h-screen text-white bg-cover ">
                 <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center">
-                <h1 className="lg:px-48 uppercase font-bold">noteworthy Entrepreneurs who graced our events</h1>
+                <h1 className="lg:px-48 uppercase font-bold">Simpler Approach To Tackle Bigger Problems</h1>
                 </div>
             </div>
             <div className="glass-morphic lg:m-20 m-4 p-4 lg:p-12 shadow-2xl rounded-2xl w-screen">

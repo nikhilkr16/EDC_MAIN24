@@ -5,8 +5,8 @@ import { AiFillLike } from "react-icons/ai";
 import blob from "../assets/blobs.png"
 import blobR from "../assets/blobR.png"
 import video from "../assets/videoo.mp4"
-import ewaste from "../assets/ewaste1.jpg"
-import ewastee from "../assets/ewaste2.jpg"
+import ewaste from "../assets/image11.jpg"
+import ewastee from "../assets/image22.jpg"
 import ewasteee from "../assets/ewaste3.jpg"
 
 function About_us() {
