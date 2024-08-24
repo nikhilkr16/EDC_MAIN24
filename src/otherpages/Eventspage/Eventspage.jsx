@@ -17,7 +17,7 @@ function Eventspage(){
             
             <div className="bg-white w-screen overflow-hidden">
                 <div className="mt-[150px] text-center text-slate-700">
-                    <h1 className="lg:text-[50px]">Our Current Partners</h1>
+                    <h1 className="lg:text-[50px] text-green-800 font-bold">Our Current Partners</h1>
                 </div>
                 <div>
         <div className=' mt-24 mb-16'>
@@ -64,15 +64,15 @@ function Eventspage(){
     </div>
     <div className="new">
     <div className="mt-[150px] text-center text-slate-700">
-                    <h1 className="lg:text-[50px]">Wanna Join Us</h1>
+                    <h1 className="lg:text-[70px] text-green-800 font-bold">Wanna Join Us</h1>
                 </div>
-    <div className='flex flex-container m-8'>
+    <div className='w-[80rem] flex flex-container m-8 p-2'>
                     
                     <div className='prof flex flex-col justify-center align-items'>
                         
                         <div className='text m-0 flex align-center text-center'>
                             <div className='flex flex-col'>
-                            <p className='text-center'>How old is your Entreprise</p>
+                            <p className='text-center text-black font-semibold'>How old is your Entreprise</p>
                            
                             </div>
                             
@@ -81,7 +81,7 @@ function Eventspage(){
 
                         <div className='text pt-8 m-0 flex align-center text-center'>
                             <div className='flex flex-col'>
-                            <p className='text-center'>Sector you are in</p>
+                            <p className='text-center text-black font-semibold'>Sector you are in</p>
                             
                             </div>
                             
@@ -90,7 +90,7 @@ function Eventspage(){
 
                         <div className='text pt-8 m-0 flex flex-col align-center text-center'>
                             <div className='flex'>
-                            <p className='text-center'>Enter a Contact Number</p>
+                            <p className='text-center text-black font-semibold'>Enter a Contact Number</p>
                             
                             </div>
                             <div className='left-0'>
