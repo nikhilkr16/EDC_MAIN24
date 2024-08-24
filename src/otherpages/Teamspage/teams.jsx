@@ -4,95 +4,78 @@ import sir1 from '../../assets/Sir1.png'
 import sir2 from '../../assets/VShah.png'
 import '../Teamspage/teams.css'
 import ujjwalS from '../../assets/ujjalSir.png'
-
+import Map from "../../components/GoogleMapComponent"
+import Pic from "./pic.jsx"
+import TextBox from "./TextBox.jsx"
+import DD from "./dropDown.jsx"
 
 function Teamspage() {
     return (
         <>
 
         
-        <Collage/>
+
 
 
 
 
 
             <div className=' p-10 hero-2'>
-                <div className='p-1'> <h3 className='text-xl font-semibold mb-4'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>Ou</span>r Team</h3>
-                    <h2 className='text-2xl font-bold mb-4 '>Faculty Member</h2>
+                <div className='p-1'> <h3 className='text-xl flex justify-center mt-8 font-semibold mb-4'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>Your  </span>  Waste is Precious</h3>
+                    <h2 className='text-2xl font-bold mb-4 '>Pick-Up Service</h2>
 
                 </div>
-                <div className='flex space-x-4 justify-evenly columns'>
-                    <div className='prof1 flex flex-col'>
-                        <div className='prof'>
-                            <img src={sir1} className='sir' />
-                            <div className='text flex align-center text-center'>
-                                <p className='text-center'>Dr. C Jegannathan</p>
+                <div className='flex flex-container m-8 mr-64'>
+                    
+                        <div className='prof flex flex-col justify-center align-items'>
+                            
+                            <div className='text m-0 flex align-center text-center'>
+                                <div className='flex flex-col'>
+                                <p className='text-center'>How old is your gold (e-Kachra)</p>
+                               
+                                </div>
+                                
                             </div>
-                        </div>
+                            <TextBox/>
 
-                    </div>
-                    <div className='prof'>
-                        <img src={sir2} className='sir' />
-                        <div className='text flex align-center text-center'>
-                            <p className='text-center'>Vishal H. Shah</p>
+                            <div className='text pt-8 m-0 flex align-center text-center'>
+                                <div className='flex flex-col'>
+                                <p className='text-center'>Type of e-Kachra</p>
+                                
+                                </div>
+                                
+                            </div>
+                            <DD/>
+
+                            <div className='text pt-8 m-0 flex flex-col align-center text-center'>
+                                <div className='flex'>
+                                <p className='text-center'>Upload the picture</p>
+                                
+                                </div>
+                                <div className='left-0'>
+                                <Pic/> 
+                                </div>
+                            </div>
+                            
+                            
+                            
                         </div>
-                    </div>
+                        
+
+                    
+                    
                 </div>
+                
+                
                 <div className='columns'>
                     <div className='p-1'>
-                        <h2 className='text-2xl font-bold mb-4 '>Leadership Body</h2>
-
+                        <h2 className='text-2xl font-bold mb-4'>Find Our Nearest KUDAPETI</h2>
                     </div>
-                    <div className='prof1 flex flex-col align-center justify-evenly '>
-                        <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
-                            <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='flex'>
-                        <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
-                            <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
-                            </div>
-                        </div>
-                        <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
-                            <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
-                            </div>
-                        </div>
-                        <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
-                            <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
-                <div className='columns'>
-                    <div className='p-1'>
-                        <h2 className='text-2xl font-bold mb-4'>Executive Body</h2>
-                    </div>
-                    <div className='flex'><div className='prof mx-auto'>
-                        <img src={ujjwalS} className='sir' />
-                        <div className='text flex align-center text-center'>
-                            <p className='text-center'>Ujjwal Aman</p>
-                        </div>
-                    </div>
-                        <div className='prof mx-auto'>
-                            <img src={ujjwalS} className='sir' />
-                            <div className='text flex align-center text-center'>
-                                <p className='text-center'>Ujjwal Aman</p>
-                            </div>
-                        </div>
-                    </div>
+                <div className='flex justify-center'>
+                <Map/>
                 </div>
-
             </div>
         </>
     )
