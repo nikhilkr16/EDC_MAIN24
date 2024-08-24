@@ -88,20 +88,15 @@ const NavBar = () => {
                                 <Link spy={true} smooth={true} to="/">
                                     <li className="text-black hover:text-yellow-400 transition cursor-pointer">Home</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="/Events">
-                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
-                                </Link>
+            
                                 <Link spy={true} smooth={true} to="/Speakers">
                                     <li className="text-black hover:text-yellow-400 transition cursor-pointer">How it Works</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Team">
                                     <li className="text-black hover:text-yellow-400 transition cursor-pointer">List Kachra</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="/App">
+                                <Link spy={true} smooth={true} to="/Events">
                                     <li className="text-black hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
-                                </Link>
-                                <Link spy={true} smooth={true} to="App">
-                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">Contact Us</li>
                                 </Link>
                             </ul>
                         </div>
