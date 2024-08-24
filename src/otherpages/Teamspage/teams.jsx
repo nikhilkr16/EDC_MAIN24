@@ -25,7 +25,7 @@ function Teamspage() {
                     <h2 className='text-2xl font-bold mb-4 '>Pick-Up Service</h2>
 
                 </div>
-                <div className='flex flex-container m-8 mr-64'>
+                <div className='flex flex-container m-8'>
                     
                         <div className='prof flex flex-col justify-center align-items'>
                             
@@ -69,7 +69,7 @@ function Teamspage() {
                 
                 <div className='columns'>
                     <div className='p-1'>
-                        <h2 className='text-2xl font-bold mb-4'>Find Our Nearest KUDAPETI</h2>
+                        <h2 className='text-2xl font-bold mt-16 mb-8'>Find Our Nearest KUDAPETI</h2>
                     </div>
                     
                 </div>
