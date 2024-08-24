@@ -16,12 +16,8 @@ function Body() {
         <button className='button'>Let's Start </button>
        </div>
         </div>
-        <img src={blob} class="blob1" />
-        <img src={blob} class="blob2" />
-        <img src={blobR} class="blob3"/>
-        <img src={blob} class="blob4 "/>
-        <img src={blobR} class="blob5"/>
-        <img src={blobR} class="blob6"/>
+       
+        
         </div>
      )
  }

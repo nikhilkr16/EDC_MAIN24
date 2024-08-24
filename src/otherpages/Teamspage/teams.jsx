@@ -9,6 +9,7 @@ import Pic from "./pic.jsx"
 import TextBox from "./TextBox.jsx"
 import DD from "./dropDown.jsx"
 
+
 function Teamspage() {
     return (
         <>
@@ -21,7 +22,7 @@ function Teamspage() {
 
 
             <div className=' p-10 hero-2'>
-                <div className='p-1'> <h3 className='text-xl flex justify-center mt-8 font-semibold mb-4'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>Your  </span>  Waste is Precious</h3>
+                <div className='p-1'> <h3 className='text-xl flex justify-center mt-8 font-semibold mt-4'><span className='bg-yellow-300 pt-2 pb-2 mb-16 pl-4'>Your  </span>  Waste is Precious</h3>
                     <h2 className='text-2xl font-bold mb-4 '>Pick-Up Service</h2>
 
                 </div>
@@ -31,7 +32,7 @@ function Teamspage() {
                             
                             <div className='text m-0 flex align-center text-center'>
                                 <div className='flex flex-col'>
-                                <p className='text-center'>How old is your gold (e-Kachra)</p>
+                                <p className='text-center text-4xl'>How old is your gold (e-Kachra)</p>
                                
                                 </div>
                                 
@@ -40,7 +41,7 @@ function Teamspage() {
 
                             <div className='text pt-8 m-0 flex align-center text-center'>
                                 <div className='flex flex-col'>
-                                <p className='text-center'>Type of e-Kachra</p>
+                                <p className='text-center text-4xl'>Type of e-Kachra</p>
                                 
                                 </div>
                                 
@@ -49,7 +50,7 @@ function Teamspage() {
 
                             <div className='text pt-8 m-0 flex flex-col align-center text-center'>
                                 <div className='flex'>
-                                <p className='text-center'>Upload the picture</p>
+                                <p className='text-center text-4xl'>Upload the picture</p>
                                 
                                 </div>
                                 <div className='left-0'>

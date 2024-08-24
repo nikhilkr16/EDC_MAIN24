@@ -14,7 +14,7 @@ function Testimonial() {
             </div>
             <div className="mt-12">
                 <h1 className="text-[35px] font-bold">What our customers say</h1>
-                <p className="mt-12">Discover what our valued customers have to say about their experiences partnering with Induz. At Induz, we take pride in delivering exceptional industrial solutions and services, and nothing speaks louder than the words of those who have entrusted us with their projects.</p>
+                <p className="mt-12">Discover what our valued customers have to say about their experiences partnering with WasteWisely. At WasteWisely, we care for us.</p>
             </div>
             <div className="justify-center mt-16 mb-16 md:mx-60 shadow-2xl rounded-lg">
                     <Testimonialslider/>

@@ -79,29 +79,29 @@ const NavBar = () => {
                     <div className="flex items-center flex-1">
                         <span className="lg:text-[18px] font-bold flex flex-row justify-center items-center">
                             <img src={logo} alt="" className="w-14 h-14" />
-                            <span className="hidden sm:block">WasteWise</span>
+                            <span className="text-black hidden sm:block">WasteWise</span>
                         </span>
                     </div>
                     <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
                         <div className="flex-10">
                             <ul className="flex gap-4 lg:gap-8 text-[14px] lg:text-[16px]">
                                 <Link spy={true} smooth={true} to="/">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Home</li>
+                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">Home</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Events">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
+                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Speakers">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">How it Works</li>
+                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">How it Works</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Team">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">List Kachra</li>
+                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">List Kachra</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/App">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
+                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="App">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Contact Us</li>
+                                    <li className="text-black hover:text-yellow-400 transition cursor-pointer">Contact Us</li>
                                 </Link>
                             </ul>
                         </div>

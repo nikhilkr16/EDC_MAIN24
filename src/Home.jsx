@@ -19,11 +19,6 @@ function Home() {
       <NavBar/>
       <Body/>
       <About_us/>
-      <Hero/>
-      <Slidermain/>
-      <Eventsection/>
-      <Speakers />
-      <Sponser/>
       <Wave />
       <Socials />
       <Testimonial/>
