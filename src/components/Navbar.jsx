@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {Link} from 'react-router-dom';
 import { FaTimes } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
-import logo from "../assets/edclogo.png";
+import logo from "../assets/hathaon.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -75,11 +75,11 @@ const NavBar = () => {
         <div className="h-10vh w-screen">
             <style>{navbarStyles}</style>
             <nav className="m-0 p-0">
-                <div className={`h-10vh flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-black' : 'bg-transparent'}`} style={{ ...(scroll ? { backdropFilter: 'blur(10px)', backgroundColor: 'rgba(0, 0, 0, 0.5)' } : {}) }}>
+                <div className={`h-10vh flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-blue' : 'bg-solid'}`} style={{ ...(scroll ? { backdropFilter: 'blur(10px)', backgroundColor: 'rgb(101 163 13)' } : {}) }}>
                     <div className="flex items-center flex-1">
                         <span className="lg:text-[18px] font-bold flex flex-row justify-center items-center">
                             <img src={logo} alt="" className="w-14 h-14" />
-                            <span className="hidden sm:block">Entrepreneurship <br />Development Cell</span>
+                            <span className="hidden sm:block">WasteWise</span>
                         </span>
                     </div>
                     <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">

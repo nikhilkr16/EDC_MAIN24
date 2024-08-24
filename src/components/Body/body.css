@@ -1,6 +1,6 @@
 .b{
     height: 100vh;
-    /* background-color: yellow; */
+    background-color: #F8F8EC;
     padding: 0px;
     width: 100%;
     margin: 0px;
@@ -10,14 +10,16 @@
     width: 100%;
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Body/edc_group.jpg');
-    background-position: center;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.artistic{
+    height: auto;
+    width: 50rem;
+    margin-left: 30rem;
+    margin-top: 15rem;
 }
   
 .heading{
@@ -34,9 +36,10 @@
 }
 
 .h1{
-   
-    text-align: center;
-    color: white;
+    margin-right: 50%;
+    top: 10rem;
+    text-align: right;
+       color: rgb(50, 181, 7);
     text-transform: uppercase;
 }
 .button{
