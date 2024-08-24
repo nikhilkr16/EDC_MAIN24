@@ -4,251 +4,113 @@ import { FaInstagram } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
 import '../Eventspage/Eventspage.css'
-import event1 from '../Eventspage/Image(EVENT)/event1.png'
-import event2 from '../Eventspage/Image(EVENT)/event2.png'
-import event3 from '../Eventspage/Image(EVENT)/event3.png'
-import event4 from '../Eventspage/Image(EVENT)/event4.png'
-import event5 from '../Eventspage/Image(EVENT)/event5.png'
-import event6 from '../Eventspage/Image(EVENT)/event6.png'
-import event7 from '../Eventspage/Image(EVENT)/event7.png'
-import event8 from '../Eventspage/Image(EVENT)/event8.png'
-import event9 from '../Eventspage/Image(EVENT)/event9.png'
-import event10 from '../Eventspage/Image(EVENT)/event10.png'
-import event11 from '../Eventspage/Image(EVENT)/event11.png'
-import event12 from '../Eventspage/Image(EVENT)/event12.png'
-import event13 from '../Eventspage/Image(EVENT)/event13.png'
-import event14 from '../Eventspage/Image(EVENT)/event14.png'
-import leaf1 from '../Eventspage/leaf.png'
-import leaf2 from '../Eventspage/leaf2.png'
-import Slidermain from '/src/components/Slider/Slidermain.jsx' 
-import Socials from "../../components/socials/socials"
+import TextBox from "../Teamspage/TextBox"
+import DD from "../Teamspage/dropDown"
+import Pic from "../Teamspage/pic"
+import TextBox1 from "../Teamspage/TextBox1"
 
 function Eventspage(){
     return(
         <>
         <div className="flex flex-col items-center w-screen">
-            <div className="eventbg h-screen w-screen text-white ">
-                <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center">
-                <h1 className="lg:px-48">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
-                <button className="md:text-[25px] px-4 mt-6 border border-white rounded">Let's Start</button>
-                </div>
-            </div>
-            <div className="h-[150px] w-[50%] bg-black rounded-3xl text-white flex items-center justify-center recbox1">
-                <h1 className="text-center lg:text-[64px]">INVESTOR’S FORGE</h1>
-            </div>
+            
+            
             <div className="bg-white w-screen overflow-hidden">
                 <div className="mt-[150px] text-center text-slate-700">
-                    <h1 className="lg:text-[50px]">Broad spectrum of events we offer!</h1>
+                    <h1 className="lg:text-[50px]">Our Current Partners</h1>
                 </div>
-                <div className="flex md:flex-row flex-col gap-4 justify-center items-center mt-20">
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                <div>
+        <div className=' mt-24 mb-16'>
+        
+        <div className='flex overflow-hidden mt-10'>
+        <div className=' flex animate-infinte-slide shrink-0 whitespace-nowrap'>
+        <img className='h-50 w-52 m-3' src="https://assets-global.website-files.com/5ae98eec19474ec4b00cd02a/5bee83f7a69edda26bc5b891_YourStory_Logo-New-01.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp9dqdnVXkrnk-DizHUu-a-SuiF3XWqhULbA&s" alt="" />
+        <img className='h-50 w-52 m-3' src="https://gengigih.demopreview.link/assets/logo-partners/progate-logo.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://logowik.com/content/uploads/images/pizza-hut-new6371.jpg" alt="" />
+         <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpgHrtdptFtKYOLL4elhWf4pxOfHjNUSxr7Q&s" alt="" />
+      
+        <img className='h-50 w-52 m-3' src="https://coding-blocks.github.io/assets/images/cb/cblogo.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcikSC2e1l_KFqdwrzZj8AwTpVE06gp7okJQ&s" alt="" />
+         <img className='h-50 w-52 m-3' src="https://www.teqfocus.com/wp-content/uploads/2022/08/logo99-1.jpg" alt="" />
+      
+        <img className='h-50 w-52 m-3' src="https://cdn.dribbble.com/users/873027/screenshots/3996894/dribbble_001_2x.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrEfVcpVCq0lWB0CmMYyM8KBHlxJy1n9RVQ&s" alt="" />
+      
+       
+        
+        </div>
+        <div className=' flex animate-infinte-slide shrink-0 whitespace-nowrap'>
+        <img className='h-50 w-52 m-3' src="https://assets-global.website-files.com/5ae98eec19474ec4b00cd02a/5bee83f7a69edda26bc5b891_YourStory_Logo-New-01.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp9dqdnVXkrnk-DizHUu-a-SuiF3XWqhULbA&s" alt="" />
+        <img className='h-50 w-52 m-3' src="https://gengigih.demopreview.link/assets/logo-partners/progate-logo.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://logowik.com/content/uploads/images/pizza-hut-new6371.jpg" alt="" />
+         <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpgHrtdptFtKYOLL4elhWf4pxOfHjNUSxr7Q&s" alt="" />
+      
+        <img className='h-50 w-52 m-3' src="https://coding-blocks.github.io/assets/images/cb/cblogo.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcikSC2e1l_KFqdwrzZj8AwTpVE06gp7okJQ&s" alt="" />
+         <img className='h-50 w-52 m-3' src="https://www.teqfocus.com/wp-content/uploads/2022/08/logo99-1.jpg" alt="" />
+      
+        <img className='h-50 w-52 m-3' src="https://cdn.dribbble.com/users/873027/screenshots/3996894/dribbble_001_2x.png" alt="" />
+        <img className='h-50 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrEfVcpVCq0lWB0CmMYyM8KBHlxJy1n9RVQ&s" alt="" />
+      
+        
+          </div>
+        
+        </div>
+        </div>
+
+    </div>
+    </div>
+    <div className="new">
+    <div className="mt-[150px] text-center text-slate-700">
+                    <h1 className="lg:text-[50px]">Wanna Join Us</h1>
                 </div>
-                <div className="flex lg:flex-row bg-white p-20 text-center justify-center items-center">
-                    <img src={leaf1} alt="" />
-                    <p className="md:text-[32px]">Stay informed about all our upcoming events by following us on our social media handles. Connect with us for the     latest updates, announcements, and exclusive content!</p>
-                    <img src={leaf2} alt="" />
-                </div>
-                <div className="flex flex-row justify-center items-center gap-6">
-                    <a href="https://www.instagram.com/edcbitmesra/"><FaInstagram className="w-14 h-14"/></a>
-                    <a href="https://www.linkedin.com/company/edcbitmesra/"><FaLinkedin className="w-14 h-14"/></a>
-                    <a href="https://facebook.com/edcbitmesra/"><FaFacebook className="w-14 h-14"/></a>
-                </div>
-            </div>
-            <div className="md:m-20 m-12">
-                <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
-                    <h1 className="font-bold text-[32px] uppercase">formal events</h1>
-                    <div className="grid md:grid-cols-3 grid-cols-1 ">
-                    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event1} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>STARTUP MELA</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event6} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>STOCK STOCISM</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event3} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>FANTASY START</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event4} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>MARKETING SPINOFF</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event2} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>INVESTOR'S HAT</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
+    <div className='flex flex-container m-8'>
+                    
+                    <div className='prof flex flex-col justify-center align-items'>
+                        
+                        <div className='text m-0 flex align-center text-center'>
+                            <div className='flex flex-col'>
+                            <p className='text-center'>How old is your Entreprise</p>
+                           
+                            </div>
+                            
+                        </div>
+                        <TextBox/>
+
+                        <div className='text pt-8 m-0 flex align-center text-center'>
+                            <div className='flex flex-col'>
+                            <p className='text-center'>Sector you are in</p>
+                            
+                            </div>
+                            
+                        </div>
+                        <DD/>
+
+                        <div className='text pt-8 m-0 flex flex-col align-center text-center'>
+                            <div className='flex'>
+                            <p className='text-center'>Enter a Contact Number</p>
+                            
+                            </div>
+                            <div className='left-0'>
+                            <TextBox1/> 
+                            </div>
+                        </div>
+                        
+                        
+                        
                     </div>
-                </div>
+                    
+
+                
+                
             </div>
-            <div className="md:m-20 m-12">
-                <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
-                    <h1 className="font-bold text-[32px] uppercase">semi-formal events</h1>
-                    <div className="grid md:grid-cols-3 grid-cols-1 ">
-                    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event7} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>BIT-THON</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
+
     </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event8} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>ANCIENT ENTP</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
     </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event9} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>MARKETING SPINOFF</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event10} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>QUIZ TRIVIA</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-                    </div>
-                </div>
-            </div>
-            <div className="md:m-20 m-12">
-                <div className="flex flex-col justify-start items-start border-4 border-black p-8 gap-8 rounded-3xl shadow-2xl shadow-green-400">
-                    <h1 className="font-bold text-[32px] uppercase">informal events</h1>
-                    <div className="grid md:grid-cols-3 grid-cols-1 ">
-                    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event12} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>BGMI</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event13} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>VALORANT</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event14} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>IPL AUCTION</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-    <div className="event-card-container">
-      <div className="event-card">
-        <img src={event5} alt="Event" className="event-image" />
-        <div className="event-details">
-          <div className="event-header">
-            <h2>FIFA CONTEST</h2>
-            <button className="participate-button">PARTICIPATE</button>
-          </div>
-          <p>VENUE: ROOM 312</p>
-          <h4>DATE: 24/03/24</h4>
-        </div>
-      </div>
-    </div>
-                    </div>
-                </div>
-            </div>
-            <Slidermain/>
-            <Socials/>
-        </div>
+                
+          
         </>
     )
 }

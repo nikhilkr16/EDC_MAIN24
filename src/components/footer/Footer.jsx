@@ -10,13 +10,9 @@ const Footer=()=>{
             <div className="sb__footer section__padding flex flex-col justify-center items-center">
                 <div className="sb__footer-links">
                 <div className="sb__footer-links_edc">
-                        <div className="sb__footer-links_edc_upper">
-                        <p><img src={edclogo} className="img01" alt="" /> </p>     
-                        <h4>Entrepreneurship
-                        Development Cell</h4>
-                        </div>
-                        <div className="para">
-                        <p>Our aim is to ignite the flame of entrepreneurship in the minds of youth.</p>
+                        
+                        <div className="para flex flex-col align-items">
+                        <p>Our aim is to Thrive a COMMUNITY.</p>
                         <div className="socialmedia">
                            <p><FaFacebook className="facebookIcon" /></p>
                             <p><FaInstagram className="instagramIcon" ></FaInstagram></p>
@@ -27,10 +23,10 @@ const Footer=()=>{
                     <div className="sb__footer-links_div">
                         <h3>QUICK LINK</h3>
                         <a href="/Dean">
-                           <p>Dean of RIE</p>
+                           <p>Founders</p>
                         </a>
                         <a href="/FA">
-                           <p>Faculty Advisor</p>
+                           <p>Team</p>
                         </a>
                         <a href="/hall of Fame">
                            <p>Hall of Fame</p>
@@ -42,16 +38,16 @@ const Footer=()=>{
                     <div className="sb__footer-links_div">
                     <h3>Our Services</h3>
                         <a href="/Dean">
-                           <p>Chemical Research</p>
+                           <p>Pickup</p>
                         </a>
                         <a href="/FA">
-                           <p>Construction Material</p>
+                           <p>KudaPeti</p>
                         </a>
                         <a href="/hall of Fame">
-                           <p>Agriculture Engineering</p>
+                           <p>Price Calculator</p>
                         </a>
                         <a href="/Contact">
-                           <p>Automotive & Systems</p>
+                           <p>Will think what to keep here ;-| </p>
                         </a>
                     </div>
                     <div className="sb__footer-links_div">
@@ -70,7 +66,7 @@ const Footer=()=>{
                 <div className="sb__footer-below">
                        <div className="sb__footer-copyright">
                          <p>
-                            Copyright @{new Date().getFullYear()} EDC, BIT Mesra. All rights reserved.
+                            Copyright @{new Date().getFullYear()} Waste Wisely, BIT Mesra. All rights reserved.
                         </p>
                        </div>
                        </div>

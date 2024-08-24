@@ -89,7 +89,7 @@ const NavBar = () => {
                                     <li className="hover:text-yellow-400 transition cursor-pointer">Home</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Events">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Casuses</li>
+                                    <li className="hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Speakers">
                                     <li className="hover:text-yellow-400 transition cursor-pointer">How it Works</li>
@@ -97,7 +97,7 @@ const NavBar = () => {
                                 <Link spy={true} smooth={true} to="/Team">
                                     <li className="hover:text-yellow-400 transition cursor-pointer">List Kachra</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="App">
+                                <Link spy={true} smooth={true} to="/App">
                                     <li className="hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="App">
