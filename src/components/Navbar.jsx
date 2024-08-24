@@ -75,7 +75,7 @@ const NavBar = () => {
         <div className="h-10vh w-screen">
             <style>{navbarStyles}</style>
             <nav className="m-0 p-0">
-                <div className={`h-10vh flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-blue' : 'bg-solid'}`} style={{ ...(scroll ? { backdropFilter: 'blur(10px)', backgroundColor: 'rgb(101 163 13)' } : {}) }}>
+                <div className={`h-10vh backgroundColor: 'rgb(101 163 13) flex justify-between z-50 text-white lg:py-1 px-4 lg:px-20 py-1 fixed top-0 left-0 w-screen transition ${scroll ? 'bg-blue' : 'bg-solid'}`} style={{ ...(scroll ? { backdropFilter: 'blur(10px)', backgroundColor: 'rgb(101 163 13)' } : {}) }}>
                     <div className="flex items-center flex-1">
                         <span className="lg:text-[18px] font-bold flex flex-row justify-center items-center">
                             <img src={logo} alt="" className="w-14 h-14" />
@@ -84,21 +84,24 @@ const NavBar = () => {
                     </div>
                     <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
                         <div className="flex-10">
-                            <ul className="flex gap-4 lg:gap-8 text-[16px] lg:text-[18px]">
+                            <ul className="flex gap-4 lg:gap-8 text-[14px] lg:text-[16px]">
                                 <Link spy={true} smooth={true} to="/">
                                     <li className="hover:text-yellow-400 transition cursor-pointer">Home</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Events">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Events</li>
+                                    <li className="hover:text-yellow-400 transition cursor-pointer">Casuses</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Speakers">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Speakers</li>
+                                    <li className="hover:text-yellow-400 transition cursor-pointer">How it Works</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="/Team">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Team</li>
+                                    <li className="hover:text-yellow-400 transition cursor-pointer">List Kachra</li>
                                 </Link>
                                 <Link spy={true} smooth={true} to="App">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">App</li>
+                                    <li className="hover:text-yellow-400 transition cursor-pointer">Our Partners</li>
+                                </Link>
+                                <Link spy={true} smooth={true} to="App">
+                                    <li className="hover:text-yellow-400 transition cursor-pointer">Contact Us</li>
                                 </Link>
                             </ul>
                         </div>

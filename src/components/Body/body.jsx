@@ -10,7 +10,7 @@ function Body() {
         <div className='b-body'>
         <img src={art} alt="" className="artistic" />
        <div className="heading">
-        <h1 className='h1'> <h3><span>Waste Karo</span></h3> Wisely Karo</h1>
+        <h1 className='h1 slogan'> <h3><span>Waste Karo</span></h3> Wisely Karo</h1>
        </div>
        <div className="btn">
         <button className='button'>Let's Start </button>

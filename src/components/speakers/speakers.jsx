@@ -14,8 +14,8 @@ function Speakers() {
                 <h1 className="text-[35px] font-bold">Some Past Speakers</h1>
               </div>
             </div>
-            <div className="flex relative overflow-hidden min-h-[400px] sm:h-auto">
-              <div className="scrolling-cards flex space-x-6 animate-scroll1 mr-6">
+            <div className="relative steps overflow-hidden min-h-[400px] sm:h-auto">
+              <div className="scrolling-cards steps space-x-6 animate-scroll1 mr-6">
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
                   <img src="https://picsum.photos/200" alt="placeholder image" />
                   <h3 className="text-xl font-semibold mb-2">Card 1</h3>

@@ -19,13 +19,13 @@
     height: auto;
     width: 50rem;
     margin-left: 30rem;
-    margin-top: 15rem;
+    margin-top: 20rem;
 }
   
 .heading{
 
     width: 100%;
-    max-height: 300px;
+    max-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,11 +35,17 @@
     margin-bottom: 30px;
 }
 
+.slogan{
+    margin-bottom : 10rem;
+    padding-bottom : 10rem;
+    
+}
+
 .h1{
     margin-right: 50%;
     top: 10rem;
     text-align: right;
-       color: rgb(50, 181, 7);
+    color: rgb(50, 181, 7);
     text-transform: uppercase;
 }
 .button{

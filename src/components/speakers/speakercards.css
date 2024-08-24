@@ -34,3 +34,8 @@
 .animate-infinte-slide {
     animation: 11s slide infinite linear;
 }
+
+.steps{
+  display: block;
+  flex-direction: column;
+}
