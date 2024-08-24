@@ -8,6 +8,7 @@ import Map from "../../components/GoogleMapComponent"
 import Pic from "./pic.jsx"
 import TextBox from "./TextBox.jsx"
 import DD from "./dropDown.jsx"
+import Btn from "../../components/btn.jsx"
 
 
 function Teamspage() {
@@ -50,7 +51,9 @@ function Teamspage() {
                                 <Pic/> 
                                 </div>
                             </div>
-                            
+                            <div className="my-button flex items-center mx-auto mt-8 justify-center">
+                                <Btn/>
+                            </div>
                             
                             
                         </div>
