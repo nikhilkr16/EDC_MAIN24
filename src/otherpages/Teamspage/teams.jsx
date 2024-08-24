@@ -14,16 +14,9 @@ function Teamspage() {
     return (
         <>
 
-        
-
-
-
-
-
-
-            <div className=' p-10 hero-2'>
-                <div className='p-1'> <h3 className='text-xl flex justify-center mt-8 font-semibold mt-4'><span className='bg-yellow-300 pt-2 pb-2 mb-16 pl-4'>Your  </span>  Waste is Precious</h3>
-                    <h2 className='text-2xl font-bold mb-4 '>Pick-Up Service</h2>
+            <div className='bg-[#F8F8EC] p-10 hero-2'>
+                <div className='p-1'> <h3  className='text-4xl flex justify-center mt-8 font-semibold mt-4'>Your Waste is Precious</h3>
+                    <h2 className='ml-8 text-2xl font-bold mb-4 '>Pick-Up Service</h2>
 
                 </div>
                 <div className='flex flex-container m-8'>

@@ -21,7 +21,6 @@ function Home() {
       <About_us/>
       <Wave />
       <Socials />
-      <Testimonial/>
       <Footer />
     </div>
   )
