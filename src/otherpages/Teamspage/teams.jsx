@@ -1,15 +1,12 @@
-import React from 'react'
-import Collage from './Collage'
-import sir1 from '../../assets/Sir1.png'
-import sir2 from '../../assets/VShah.png'
-import '../Teamspage/teams.css'
-import ujjwalS from '../../assets/ujjalSir.png'
-import Map from "../../components/GoogleMapComponent"
-import Pic from "./pic.jsx"
-import TextBox from "./TextBox.jsx"
+import React, { useState, useEffect } from 'react';
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "../../firebase.js"; 
 import DD from "./dropDown.jsx"
+import Map from "../../components/GoogleMapComponent.jsx"
+import TextBox from "./TextBox.jsx"
+import Pic from "./pic.jsx"
 import Btn from "../../components/btn.jsx"
-
+import '../Teamspage/teams.css'
 
 function Teamspage() {
     return (
@@ -71,7 +68,7 @@ function Teamspage() {
                     
                 </div>
                 <div className='flex justify-center'>
-                <Map/>
+                    <Map/>
                 </div>
             </div>
         </>
